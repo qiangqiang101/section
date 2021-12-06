@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="">
+<link rel="icon" href="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/favicon.ico?v=5">
+<script type="text/javascript" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/js/jquery-1.12.4.min.js"></script>
+<link rel="canonical" href="https://www.eclbet.com/my/mywallet.html" />
+<link rel="alternate" href="https://www.eclbet.com/my/mywallet.html" hreflang="x-default" />
+<link rel="alternate" href="https://www.eclbet.com/my/mywallet.html?lang=english" hreflang="en" />
+<link rel="alternate" href="https://www.eclbet.com/my/mywallet.html?lang=simplified" hreflang="zh" />
+<meta name="google-site-verification" content="SvUVOpK5rFXy7qEnqliLkInNAymlDKbubp6BuIuEYy0" />
+<meta name="google-site-verification" content="k0PyufOXaoUj_Cx4AmXEi5V0VTQmzuLdCrP6iU3kNqM" />
+<link type="text/css" href="t/default/css/General.css?v=4" rel="stylesheet" />
+<link type="text/css" href="ComClass/jquery-ui/css/smoothness/jquery-ui.custom.css" rel="stylesheet" />
+<script defer type="text/javascript" src="ComClass/jquery-ui/js/jquery-ui.custom.min.js"></script>
+<script defer type="text/javascript" src="ComClass/jquery-ui/js/jshashtable-2.1.js"></script>
+<script defer type="text/javascript" src="ComClass/jquery-ui/js/jquery.numberformatter-1.2.3.min.js"></script>
+<script defer type="text/javascript" src="t/default/js/history.js"></script>
+<script defer type="text/javascript" src="t/default/js/layoutMgr.js?v=11aw"></script>
+<script defer type="text/javascript" src="t/default/js/walletMgr.js?v=9"></script>
+<script defer type="text/javascript" src="t/default/js/commonMgr.js?v=1.22.30"></script>
+<script defer type="text/javascript" src="t/default/js/gameMgr.js?v=15.10.188"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="text/javascript" src="ComClass/jquery-ui/js/jquery.validation.js?v=1.23"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.css" />
+<link href="https://jdyecl6er.cloudcdnetw.com/ebv3/m/css/main.css?1" rel="stylesheet">
+<style>
+
+.promotionNavBarWrapper .promotionNavButton {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 33.33%;
+    padding: 17px 0;
+    position: relative;
+}
+
+.promotionNavBarWrapper .promotionNavButton p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #b2b2b2;
+}
+
+.promotionNavBarWrapper .promotionNavButton.swiper-slide-active p {
+    color: #fff;
+    transition: all .25s;
+}
+
+.promotionNavBarWrapper .promotionNavButton.swiper-slide-active:after {
+    content: "";
+    background: linear-gradient(91.23deg,#FABB2E 0%,#E5B35C 100%);
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transition: all .25s;
+}
+</style>
+<script type="text/javascript">
+	var _p = 'mywallet';
+	var _fn = {};
+	var _ctrl = null;
+</script>
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+
+			{
+				"@context": "https://schema.org",
+				"@type": "SiteNavigationElement",
+				"id": "site-navigation",
+				"name": "Esports",
+				"url": "https://www.eclbet4.com/my/esports.html/"
+			},
+
+			{
+				"@context": "https://schema.org",
+				"@type": "SiteNavigationElement",
+				"id": "site-navigation",
+				"name": "Live Casino",
+				"url": "https://www.eclbet4.com/my/livecasino.html/"
+			},
+
+			{
+				"@context": "https://schema.org",
+				"@type": "SiteNavigationElement",
+				"id": "site-navigation",
+				"name": "VIP",
+				"url": "https://www.eclbet4.com/my/vip.html/"
+			},
+
+			{
+				"@context": "https://schema.org",
+				"@type": "SiteNavigationElement",
+				"id": "site-navigation",
+				"name": "Prediction",
+				"url": "https://www.eclbet4.com/my/prediction.html/"
+			},
+
+			{
+				"@context": "https://schema.org",
+				"@type": "SiteNavigationElement",
+				"id": "site-navigation",
+				"name": "Ranking",
+				"url": "https://www.eclbet4.com/my/ranking.html/"
+			}
+		]
+	}
+</script>
+<meta name="copyright" content="© 2021. Copyright Eclbet4.com" />
+<meta name="distribution" content="Global">
+<meta name="robots" content="noodp, noydir, index, follow" />
+<meta name="googlebot" content="index,follow,all">
+<meta name="revisit-after" content="2 days">
+</head>
+<body>
+<div id="mainContent">
+</div>
+<div id="masklayer" style="height:100%;width:100%;position:fixed;display:none;background-color:black;opacity:0.6;z-index:1031"></div>
+<div id="popupLayer" style="display:none;position:absolute;z-index:1032;"></div>
+<div id="alertMsg"></div>
+<script>
+		var _currenthour = '2021120614';
+		var async = true;
+		var theme = 'ebr/';
+		var ui_method = '1';
+		var agreePage = false,
+			agreePress = false;
+		var agreeMsg = '';
+		var postData = $.parseJSON('{"theme":"ebr"}');
+		var language = 'english';
+					var clDepositRedirect = 'mydeposit.html';
+				var mobileView = 'm';
+		
+		function popupTpEvent() {
+			window.open('tp-event.html', '_blank');
+		}
+	</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script type="text/javascript">
+	var __lc = {};
+	__lc.license = '8753026';
+	__lc.group = 2;
+	__lc.chat_between_groups = false;
+
+	(function() {
+		var lc = document.createElement('script');
+		lc.type = 'text/javascript';
+		lc.async = true;
+		lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(lc, s);
+	})();
+</script>
+
+<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5VJFF7N');
+	</script>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VJFF7N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115459963-1"></script>
+<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-115459963-1');
+	</script>
+<style>
+#popupLayer {
+	background-color:none!important;
+}
+
+.login-loading {
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:99999999;
+	background-image: url(https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/animation_login_v3.gif);
+	background-position: center;
+	background-size:cover;
+	display:none;
+
+}
+
+.form-error {
+	color: red!important;
+	font-family: rubik,sans-serif;
+}
+</style>
+<div id="ecl-content" class="mainContainer" style="display:block">
+
+<style>
+.sideMenuListWrapper a {
+    transition: transform .4s;
+    transition-timing-function: cubic-bezier(.7,0,.3,1);
+    transform: translate3d(0,500px,0);
+}
+
+.sidebarWrapper.open .sideMenuListWrapper a {
+    transform: translate3d(0,0,0);
+}
+
+.sidebarWrapper .sideMenuFooterWrapper .socialMediaWrapper .socialMediaContainer .iconContainer a {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+</style>
+<div id="sidebar" class="sidebarWrapper">
+<div class="sideMenuListWrapper" style="overflow:hidden;">
+<a class="loginUserProfileWrapper" href="myprofile.html" style="display:block;">
+<div class="userProfileWrapper">
+<div class="userInfoWrapper">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m//images/avatar/Avatar_1.png" />
+<div>
+<span class="userType header-vip-level">Normal</span>
+<p class="totalCash">MYR</span> <span data-wallet-display="wallet-total">0.00</span></p>
+</div>
+</div>
+<div class="rightArrowIcon">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/Dropdown.png">
+</div>
+</div>
+</a>
+<a href="esports.html">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_menu_esport.png">
+<p>Esports</p>
+</div>
+</a>
+<a href="sports.html">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_menu_sports.png">
+<p>Sports</p>
+</div>
+</a>
+<a href="livecasino.html">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_menu_live_casino.png">
+<p>Live Casino</p>
+</div>
+</a>
+<a href="slots.html">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_menu_slots.png">
+<p>Slots</p>
+</div>
+</a>
+<a href="4d.html" class="fourDSidebarBtn">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_menu_4D.png">
+<p>4D</p>
+</div>
+</a>
+<a href="vip.html" class="vipSidebarBtn">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_menu_vip.png">
+<p>Vip</p>
+</div>
+</a>
+<a href="prediction.html" class="predictionSidebarBtn">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_menu_prediction.png">
+<p>Prediction</p>
+</div>
+</a>
+<a href="javascript:void(0)" class="predictionSidebarBtn" data-dom="logout">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/logout.svg?3" style="width:40px;margin-left:3px;">
+<p style="margin-left:5px;text-transform:capitalize;">logout</p>
+</div>
+</a>
+</div>
+<div class="sideMenuFooterWrapper">
+<div class="linebreak"></div>
+<div class="languageWrapper">
+<img class="countryIcon" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/country/Malaysia.png.png" />
+<p class="languageContainer">
+<span class="language" data-language="english" onclick="_headerctrl.langSelect('english')">English</span>/<span class="language" data-language="simplified" onclick="_headerctrl.langSelect('simplified')">中文</span>
+</p>
+</div>
+<a href="mobile-app.html">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/mobile_icon.png">
+<p>Download App</p>
+</div>
+</a>
+<a href="javascript:void(0)" data-dom="logout" class="logoutBtn">
+<div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/exit_to_app.png">
+<p></p>
+</div>
+</a>
+<div class="socialMediaWrapper">
+<div class="socialMediaContainer">
+<p>Follow Us</p>
+<div class="iconContainer">
+<a href="https://www.facebook.com/eclbet" target="_blank" data-redirect="noRedirect"><img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/facebook_square_icon.png" /></a>
+<a href="https://www.instagram.com/eclbet/" target="_blank" data-redirect="noRedirect"><img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/instagram_icon.png" /></a>
+<a href="https://www.youtube.com/channel/UCRXi1gGSIGv6PTJQkwMcCiw" target="_blank" data-redirect="noRedirect"><img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/youtube_icon.png" /></a>
+<a href="https://t.me/realeclbet" target="_blank" data-redirect="noRedirect"><img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/telegram_icon.png" /></a>
+</div>
+</div>
+<a href="https://eclmovie.com/" data-redirect="noRedirect" target="_blank" class="eclMovieGif">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/gif/eclMovie_GIF.gif" />
+</a>
+</div>
+</div>
+</div>
+<div class="overlay"></div><style>
+.noti-area {
+	font-family: rubik,sans-serif;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:100;
+	padding: 8px;
+    color:#fff;
+}
+
+.noti {
+	background-color: rgba(40,40,40,0.8);
+	padding: 8px;
+	cursor: pointer;
+	margin-top: 8px;
+}
+
+
+.noti-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.noti-close {
+	float: right;
+	font-size: 24px;
+	font-weight: 100;
+	margin-top: -10px;
+    color: #fff;
+}
+
+.noti-body {
+	height: 20px;
+	margin: 10px 0;
+	font-size: 12px;
+}
+
+.noti-body-left {
+	float: left;
+	width: 85%;
+}
+
+.noti-body-right {
+	float: left;
+	width: 15%;
+}
+
+.noti-footer {
+	color: #aaa;
+	font-size: 10px;
+}
+
+.noti .indicator {
+	width: 8px;
+	height: 8px;
+	display: block;
+	border-radius: 50%;
+	float: right;
+	background-color: #299d81;
+	margin-top: 2px;
+	margin-right: 4px;
+}
+
+.noti-danger .indicator {
+	background-color: #cc3633;
+}
+</style>
+
+<header class="headerMainWrapper">
+<div class="container">
+<div class="headerWrapper">
+<div class="menuWrapper">
+<div id="sideMenuIcon">
+<span></span>
+<span></span>
+<span></span>
+ </div>
+</div>
+<div>
+<a href="index.html">
+<img class="logoIcon" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/MY/english/site-logo.png">
+</a>
+</div>
+<div>
+<div class="infoWrapper" style="display:block;">
+<a href="pending-transaction.html">
+<div class="pendingTransaction" id="pending-transaction">
+<div class="redDot" style="display:none;"></div>
+<img class="pendingIcon" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/outline_pending_icon.png">
+</div>
+</a>
+<a href="myinbox.html">
+<div class="pendingTransaction" id="unread-message">
+<div class="redDot" style="display:none;"></div>
+<img class="emailIcon" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/outline_email_icon.png">
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="noti-area">
+</div>
+<script>
+function HeaderCtrl()
+{
+    var vm = this;
+    vm.init = init;
+    vm.langSelect = langSelect;
+
+    function init()
+    {
+        if (loginFlag) {
+            getUnreadMessage();
+            getHeaderNotifications();
+            getMemberFlag();
+            setInterval(function() {
+                getHeaderNotifications();
+            }, 60000);
+        }
+
+        $('body').delegate('.noti', 'click', function(e) {
+			if (!$(e.target).is('.noti-close')) {
+				location.href = 'myhistory.html';
+			}
+		});
+
+		$('body').delegate('.noti-close', 'click', function(e) {
+			e.preventDefault();
+			$(this).parent().parent().fadeOut();
+		});
+
+        $('#sideMenuIcon').click(function() {
+            $('#sidebar').toggleClass('open');
+            if ($('#ccl').length > 0 && $('#ccl').children().length == 0) {
+                $("#ccl").append('<div data-dom="wallet-ccl2-body" style="display:none;" data-setting=\'{"display": "none", "numberFormat": true, "whitelist":["main"], "skip_category": true }\'></div>');
+                _Wallet.refreshCclList2Only();
+            }
+        });
+
+        $('.overlay').click(function() {
+            $('#sidebar').removeClass('open');
+        })
+
+        $(".sideMenuListWrapper a").each(function(index){
+            $(this).css({
+                'transition-delay' : 0.025*(1+index) + 's'
+            });
+        });
+    }
+
+    function langSelect(langvalue) {
+		eraseCookie();
+		createCookie(langvalue, "30");
+		// location.reload();
+
+		if (location.search.length > 0) {
+			var array = location.search.substring(1).split('&');
+			var remain = [];
+			for (var i = 0; i < array.length; i++) {
+				var item = array[i];
+				if (item.indexOf('lang=') == -1) {
+					remain.push(item);
+				}
+			}
+
+			if (remain.length > 0) {
+				window.location.href = '?' + remain.join('&') + '&lang=' + langvalue;
+			} else {
+				window.location.href = '?lang=' + langvalue;
+			}
+		} else {
+			window.location.href = '?lang=' + langvalue;
+		}
+	}
+
+    function eraseCookie() {
+		createCookie('language', "", -1);
+	}
+
+    function createCookie(value, days) {
+		var date = new Date();
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+		var expires = "; expires=" + date.toGMTString();
+		document.cookie = "language=" + value + ";" + expires;
+	}
+
+    function getMemberFlag()
+    {
+        _getMemberFlag(function(data) {
+            if (data.status == '0') {
+                var badge = data.d.badge;
+                $('.header-vip-level').text(_lang['vip_rank_' + badge]);
+            }
+        });
+    }
+
+    function getUnreadMessage()
+    {
+        $.ajax({
+            type: 'POST',
+            url: 'a/getUnreadMessageCount?action=unread&t=5708ada173179b097833a8bd54ab4b68',
+            data: {
+                action: 'unread'
+            },
+            dataType: 'json'
+        }).success(function(data) {
+            if (data.status == '0') {
+                unreadCount = data.d.unread;
+                if (unreadCount > 0) {
+                    $('#unread-message .redDot').show();
+                }
+            }
+        });
+    }
+
+    function getHeaderNotifications()
+    {
+        $.ajax({
+            type: 'POST',
+            url: 'a/getHeaderNotifications?t=0d0c26d2fdf4e6a8d997e20e8241d79a&x=' + moment().format('YYYYMMDDHHmm'),
+            dataType: 'json'
+        }).success(function(data) {
+            if (data.status == '0') {
+                pendingCount = data.d.c;
+                if (pendingCount > 0) {
+                    $('#pending-transaction .redDot').show();
+                } else {
+                    $('#pending-transaction .redDot').hide();
+                }
+
+                for (var i = 0; i < data.d.transactions.length; i++) {
+                    var row = data.d.transactions[i];
+                    var html = '<div id="noti-x-' + row.id + '"class="noti noti-' + (row.status == '2'? 'danger' : 'success') + '">'
+                        + '<div class="noti-title">New Notification <a href="javascript:this(0)" class="noti-close">&times;</a></div>'
+                        + '<div class="noti-body">'
+                        + '<div class="noti-body-left">';
+
+                    if (row.status == '2') {
+                        html += 'Transaction #TRX has been rejected'.replace('TRX', row.id);
+                    } else {
+                        html += 'Transaction #TRX has been approved'.replace('TRX', row.id);
+                    }
+
+                    html += '</div><div class="noti-body-right"><span class="indicator"></span></div>'
+                        + '</div>'
+                        + '<div class="noti-footer">' + ('X seconds ago'.replace('X', row.ago)) + '</div></div>';
+
+                    $('.noti-area').prepend(html);
+
+                    (function(x) {
+                        setTimeout(function() {
+                            $('#noti-x-' + x).fadeOut();
+                        }, 5000);
+                    })(row.id)
+                }
+            }
+        });
+    }
+}
+</script><link href="https://jdyecl6er.cloudcdnetw.com/ebv3/m/css/wallet.css" rel="stylesheet">
+<style>
+[data-dom="transfer-wrapper"] > * {
+    display: inline-block;
+}
+</style>
+<section id="wallet">
+<div class="walletHeaderWrapper">
+<div class="walletHeaderContainer">
+<p>Main Wallet Balance</p>
+<h3>
+<span class="currency" id="walletBalanceCurrency">MYR</span>
+<span class="walletPrice" data-wallet-display="w_main">0.00</span>
+<img class="refreshBtn" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/ci_refresh-02.png" onclick="_Wallet.refreshCclList();" />
+</h3>
+<div class="walletBtnWrapper">
+<a class="walletBtnContainer" href="mydeposit.html">
+<button class="walletBtn">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/mdi_cash-plus.png" />
+</button>
+<p>Deposit</p>
+</a>
+<a class="walletBtnContainer" data-wallet="withdraw" href="mywithdrawal.html">
+<button class="walletBtn">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/icon_withdrawal_active.png" />
+</button>
+<p>Withdrawal</p>
+</a>
+<a class="walletBtnContainer" data-wallet="transfer" href="mytransfer.html">
+<button class="walletBtn">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/icon_transfer_active.png" />
+</button>
+<p>Transfer</p>
+</a>
+<a class="walletBtnContainer" data-wallet="history" href="myhistory.html">
+<button class="walletBtn">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/icon_history_active.png" />
+</button>
+<p>History</p>
+</a>
+</div>
+</div>
+</div>
+<script>
+$(document).ready(function() {
+    console.log('a.walletBtn[href="' + _p + '.html"]');
+    $('a.walletBtnContainer[href="' + _p + '.html"]').addClass('active');
+});
+</script>
+<div class="walletDynamicWrapper">
+<div class="walletMainWrapper">
+<div class="walletBalance" data-dom="wallet-ccl-body" data-setting='{"display": "none", "whitelist":["main"], "skip": ["main"], "seamless": true, "seamless_tpl_id": "wallet-ccl-side-seamless-row-tpl", "display_trf_out_first":true}'>
+</div>
+<div class="linebreak"></div>
+<div class="minigameWrapper">
+<a href="ranking.html" id="rankingECoin">
+<div class="minigameContainer">
+<div class="minigameTitleWrapper">
+<p class="count" data-game="ebMyRanking">0</p>
+<h6 class="minigameTitle">Ranking E-Coins</h6>
+</div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/Dropdown.png" />
+</div>
+</a>
+<a href="prediction.html?sub=number-game" id="rankingECoin">
+<div class="minigameContainer">
+<div class="minigameTitleWrapper">
+<p class="count" data-game="ebMyNumberGame12">0</p>
+<h6 class="minigameTitle">Number Game Tickets</h6>
+</div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/Dropdown.png" />
+</div>
+</a>
+<a href="prediction.html" id="rankingECoin">
+<div class="minigameContainer">
+<div class="minigameTitleWrapper">
+<p class="count" data-game="ebMyDota2021">0</p>
+<h6 class="minigameTitle">Prediction Tickets</h6>
+</div>
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/Dropdown.png" />
+</div>
+</a>
+</div>
+</div>
+</div>
+</section>
+<div class="modal fade" id="transferAllModal" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-body">
+<div id="transferall_confirm">
+<h1 class="modalTitle">Transfer All to Main Wallet</h1>
+<p class="modalContent">Are you sure to transfer all balance back to Main wallet?</p>
+<div class="buttonWrapper">
+<button type="button" class="cancelBtn" data-dismiss="modal">Cancel</button>
+<button type="button" class="okBtn" onclick="_ctrl.confirmTransfer()">Confirm</button>
+</div>
+</div>
+<div id="transferall_go" style="display:none;">
+<div class="loaderWrapper">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/gif/loading.gif" class="gifImg" />
+</div>
+<h1 class="modalTitle">Transferring to main wallet...</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+
+function WalletCtrl()
+{
+    var walletArr = [];
+    var product_cap = {"main":"Main Wallet","scr888":"SCR888","lpe88":"LPE88","s8star":"S8Star","rollex":"Rollex","playboy":"Playboy","suncity":"SunCity","tbs":"TBS","gw99":"GW99","newtown":"NEWTOWN","tc":"PT Slots","win8":"3WIN8","sky3888":"SKY3888","fd":"4D","magnum_f4d":"4D","ibc_sb":"Maxbet Esports & Sports","internal":["TFGaming","WM Club","DG Club","Ebet Club","Allbet Club","Hg Club","Evo Club","AG Club","Toptrend Slots","Pragmatic Slots","CQ9 Slots","JK Slots","SG Slots","PNG Slots","DT Slots","Gamatron","GP Club & Slots"],"pt":"PT Club & Slots","ebet":"Ebet Club","evg":"EVO Club","mansion":"M Club & 3D Slots","spade":"SG Slots","hc":"Esports","w88":"GP Club & Slots","wm":"WM Club","allbet":"Allbet Club","qtech":"QTech Slots","sa":"Salon Club","sing":"3Sing Sports","cmd":"CMD Esports & Sports","sexy":"SG Club","joker":"JK Slots","scr":"918 Slots","imone":"Inplay Esports","igk":"IGKbet Sports","internal2":[]};
+    var currencyLbl = 'MYR';
+    var underMain = 'Under Maintenance';
+
+
+    var vm = this;
+    vm.init = init;
+    vm.confirmTransfer = confirmTransfer;
+
+    function init()
+    {
+        			getminigameInfo('ebMyRanking');
+					getminigameInfo('ebMyNumberGame12');
+					getminigameInfo('ebMyDota2021');
+		
+        $('body').delegate('.dropDown_wallet', 'click', function() {
+            $('.dropdownBalanceWrapper').slideToggle();
+            $(this).toggleClass("flip")
+        });
+    }
+
+    function getminigameInfo(g) {
+        if (g != 'na') {
+            $.ajax({
+                type: 'POST',
+                url: 'a/getMinigameInfo',
+                data: {
+                    game: g,
+                    custom: {
+                        no_winner: 1
+                    }
+                },
+                dataType: 'json',
+            }).success(function(data) {
+                if (data.d.status == 200) {
+                    $('[data-game="' + g + '"]').html(data.d.tickets);
+                }
+            });
+        }
+    }
+
+    function confirmTransfer(){
+        $("#transferall_confirm").hide();
+        $("#transferall_go").show();
+
+        $.ajax({
+			type: 'POST',
+			url: 'a/getWallet',
+			dataType: 'json'
+		}).success(function(data){
+			if(data.status == '0'){
+				walletData = data.d;
+				$.each(walletData, function(index, d){
+					if(index.toLowerCase()!='main' && index.toLowerCase()!='ezugi' && index.toLowerCase()!='hg'){
+						if(d.s!='0'){
+							walletArr.push(index);
+							processTransfer(index,d.g,2);
+						}
+					}
+				});
+			}
+		});
+    }
+
+    function processTransfer(wallet,type,action){
+        $.ajax({
+            type: 'POST',
+            url: 'a/walletTransferAll',
+            data: { product : wallet, product_type : type, action : action }, 
+            dataType: 'json'
+        }).success(function(data){
+            var index = walletArr.indexOf(wallet);
+            if (index > -1) {
+                walletArr.splice(index, 1);
+            }
+            if (walletArr.length <1){
+                $("#transferAllModal").modal("hide");
+                $("#transferall_go").hide();
+                $("#transferall_confirm").show();
+                showAlertMsg('Success', '');
+                _Wallet.refreshCclList();
+            }
+        });
+    }
+}
+
+_fn.mywallet = WalletCtrl;
+</script><footer>
+<div class="footerWrapper">
+<a href="index.html">
+<div class="footerButton" id="homeFooter">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/home_icon.png" />
+<p>Home</p>
+</div>
+</a>
+<a href="mywallet.html">
+<div class="footerButton" id="walletFooter">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/wallet_icon.png" />
+<p>Wallet</p>
+</div>
+</a>
+<a href="contact.html">
+<div class="footerButton" id="liveChatFooter">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/LC_GREY.png" />
+<p>Live Chat</p>
+</div>
+</a>
+<a href="promotion.html">
+<div class="footerButton" id="promoFooter">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/promo_icon.png" />
+<p>Promo</p>
+</div>
+</a>
+<a href="myprofile.html">
+<div class="footerButton" id="profileFooter">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/profile_icon.png" />
+<p>Profile</p>
+</div>
+</a>
+</div>
+</footer>
+
+<script>
+
+	$(document).ready(function() {
+        var currentP = 'mywallet';
+		$('.footerWrapper a[href="' + currentP + '.html"]').find('.footerButton').addClass("active");
+	});
+</script></div>
+<div class="login-loading"></div>
+<div id="divWebEvent" style="display:none"></div>
+<div class="modal fade" id="alertModal" role="dialog" data-backdrop="static">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-body">
+<h1 class="modalTitle"></h1>
+<p class="modalContent"></p>
+<button type="button" class="closeModal">OK</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="warningModal" role="dialog" data-backdrop="static">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="closeWrapper">
+<img class="closeIcon" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/carbon_close.png" />
+</div>
+<div class="modal-body">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/gif/warning_sign.gif" class="gifImg" />
+<p class="modalContent"></p>
+<button type="button" class="closeModal">OK</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="successModal" role="dialog" data-backdrop="static">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="closeWrapper">
+<img class="closeIcon" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/carbon_close.png" />
+</div>
+<div class="modal-body">
+<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/gif/green_tick.gif" class="gifImg" />
+<h1 class="modalTitle"></h1>
+<p class="modalContent"></p>
+<button type="button" class="closeModal">OK</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+$(document).ready(function() {
+    showAlertMsg = function(title, msg, option)
+    {
+        if (typeof option == 'undefined') {
+            option = {};
+        }
+
+        var m;
+        if (title == 'Success') {
+            m = '#successModal';
+        } else if (title == 'Fail' || title == 'Error') {
+            m = '#warningModal';
+        } else {
+            m = '#alertModal';
+        }
+        
+        $(m).find('.modalTitle').html(title);
+        $(m).find('.modalContent').html(msg);
+
+        $(m + ' .closeModal').unbind('click');
+
+        if (typeof option.ok_text != 'undefined') {
+            $(m + ' .closeModal').text(option.ok_text);
+        } else {
+            $(m + ' .closeModal').text('OK');
+        }
+        
+        if (typeof option.ok_redirect != 'undefined') {
+            $(m + ' .closeModal, ' + m + ' .closeIcon').click(function() {
+                location.href = option.ok_redirect;
+            });
+        } else {
+            $(m + ' .closeModal, ' + m + ' .closeIcon').click(function() {
+                $(m).modal('hide');
+            });
+        }
+        
+        $(m).modal('show');
+        
+    };
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/js/jquery.lazy.min.js"></script>
+<script defer type="text/javascript" src="t/default/js/moment.js"></script>
+<script defer type="text/javascript" src="t/default/js/sdk.js?1.41.00"></script>
+<script defer type="text/javascript" src="t/default/js/common.js?v=1"></script>
+<script defer type="text/javascript" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/js/main.js?v=1"></script>
+<script type="text/html" id="webevent-tpl">
+	<div style="cursor:pointer;" tpl-attrs='{"onclick" : [${d.url != undefined && d.url.length > 0}, "window.location=&#39;${d.url}&#39;"]}'>
+		<img id="webEventBanner" src="${d.image}" style="width:100%"/>
+	</div>
+</script>
+<script type="text/html" id="home-banner-tpl">
+<div class="swiper-slide" style="background-image: url(${d.R_HB_IMG});" onclick="location.href='${d.R_HB_URL}'" ></div>
+</script>
+<script type="text/html" id="mailbox-tpl">
+<a href="mywallet?sub=inbox" tpl-if="${d.unread > 0}" class="c-btn c-top-nav__btn">${d.unread} <i class="fa fa-envelope"></i></a>
+<a href="mywallet?sub=inbox" tpl-if="${d.unread <= 0}" class="c-btn c-top-nav__btn"><i class="fa fa-envelope"></i></a>
+</script>
+<script type="text/html" id="wallet-balance-tpl">
+<div class="o-table__bordered" style="margin:0;">
+	<table class="wallettable table-balance o-table o-table--small-font o-table__white-text">
+		<tr class="o-table__head">
+			<th class="u-text-left">${_lang.wallet_summary}</th>
+			<th class="u-text-right">${_lang.balance_cap}</th>
+		</tr>
+		${d.balanceBody}
+		<tr>
+			<td style="text-align:left;">
+				<input type="hidden" name="w_bal_${d.prefix}total" id="w_bal_${d.prefix}total" data-wallet-value="${d.prefix}_total" value="0">
+				${_lang.total}
+			</td>
+			<td id="wallet_${d.prefix}total" data-wallet-display="${d.prefix}_total" style="text-align:right;">
+				<img src="${defImgPath}images/loading.gif" style="text-align: center;width:10px;height:10px;">
+			</td>
+		</tr>
+	</table>
+</script>
+
+<script type="text/html" id="wallet-ccl2-tpl">
+	${d.balanceBody}
+</script>
+<script type="text/html" id="wallet-ccl2-row-tpl">
+<tr data-dom="ccl-row">
+   <td class="product">
+        <input type="hidden" name="w_bal_main" id="w_bal_${d.prefix}${d.wallet}" data-wallet-value="w${d.prefix}_${d.wallet}" value="0" >
+		${d.walletName}
+   </td>
+   <td class="amount" data-wallet-display="w${d.prefix}_${d.wallet}"><img src="${defImgPath}images/loading.gif" height="20" width="20" style="text-align: center;"></td>
+   <td class="btns"><span data-dom="transfer-wrapper"></span></td>
+</tr>
+</script>
+<script type="text/html" id="wallet-ccl-tpl">
+<input type="hidden" name="w_bal_main" id="w_bal_main" data-wallet-value="w_main" value="0" >
+<div class="balanceWrapper">
+${d.balanceBody}
+</div>
+
+
+<div class="transferBtnWrapper">
+<button class="transferBtn" onclick="$('#transferAllModal').modal('show')">TRANSFER ALL TO MAIN WALLET</button>
+</script>
+<script type="text/html" id="transfer-all-tpl">
+
+<div class="modal fade in" id="transferModal" role="dialog" style="display: block;">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modalHeaderWrapper">
+                    <h1>Transfer</h1>
+                </div>
+
+                ${d.balanceBody}
+
+                <button type="button" class="closeModal" onclick="close_popup();_Wallet.refreshCclList();" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+<script type="text/html" id="transfer-all-row-tpl">
+<input type="hidden" name="transfer_bal_${d.wallet}" id="transfer_bal_${d.wallet}" value="0">
+<div class="selectedSubWallet" style="display: block;">
+    <h1 class="subWalletTitle">${d.walletName}</h1>
+</div>
+
+<div class="statusWrapper">
+    <div class="header">Status</div>
+
+    <div class="bodyMsg">
+        <p id="transfer_${d.wallet}" class="transferMsg success"></p>
+    </div>
+</div>
+</script>
+
+
+<script type="text/html" id="slot-tab-item-tpl">
+<a href="javascript:void(0)" class="type" data-dom="slot-tab" data-tab="${d.tab}" onclick="_ctrl.drawGameLayout('${d.tab}')">${d.name}</a>
+</script>
+<script type="text/html" id="slot-item-tpl">
+<div class="game slotsGame" style="${d.setting_path.css}">
+	<div class="gameImg lazy" style="width: ${d.setting_path.img_width}px; height: ${d.setting_path.img_height}px;" data-src="${d.setting_path.img_folder}${d.detail.img}">
+		<div class="playNow">
+			<p data-game="test" onclick="${d.realPlay}">${_lang.play_now}</p>
+		</div>
+	</div>
+
+	<div class="gameDetails">
+		<p class="gameName">${d.detail.name}</p>
+	</div>
+</div>
+</script>
+<script type="text/html" id="slot-empty-tpl">
+	<div style="text-align:center;padding-top:120px;height:526px;width:100%;color:#fff;">${_lang.empty_game_cat}</div>
+</script>
+
+<script type="text/html" id="promo-tpl">
+<div class="promo-wrap">
+	<div class="promo-box">
+	  <a href="javascript:void(0);" class="c-promotions__item" onclick="$('#promo${d.R_PROMO_ID}').toggle(400)">
+        <img src="${d.R_PROMO_IMG}">
+      </a>
+	</div>
+	<div class="promo-info-wrap" id="promo${d.R_PROMO_ID}">
+		<h4>${d.R_PROMO_TITLE}</h4>
+		${d.R_PROMO_CONTENT}
+	</div>
+</div>
+</script>
+<script type="text/html" id="CategoryList-tpl">
+    <div class="swiper-slide promotionNavButton"  data-category="${d.rawid}" onclick="_ctrl.changeTab('${d.tabid}', '${d.rawid}')"><p>${d.name}</p></div>
+</script>
+<script type="text/html" id="promoCat-tpl">
+    <img class="promoGame grid-item pm-${d.R_PROMO_CATE_ID}" src="${d.R_PROMO_IMG}"  data-toggle="modal" data-target="#pmodal-${d.R_PROMO_CATE_ID}-${d.R_PROMO_ID}" style="display:none;" />
+</script>
+<script type="text/html" id="promoCat-body-tpl">
+
+<div id="pmodal-${d.R_PROMO_CATE_ID}-${d.R_PROMO_ID}" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="promotionModalWrapper">
+                    <img class="modalCloseBtn" src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/modal-close.png" data-dismiss="modal">
+        
+                    <h3 class="title">${d.R_PROMO_TITLE}</h3>
+
+                    <div class="content">
+                        <div class="promotionBanner" style="background-image: url(${d.R_PROMO_IMG})"></div>
+
+                        ${d.R_PROMO_CONTENT}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+
+<script type="text/html" id="pg-tpl">
+	<div id="pgPage" style="height:500px;width:100%">
+        <h2 class="section-title">Deposit</h2>
+		<div id="pgPageRemark">
+	      <div class=" container ad-single bg-black section">
+    			<div class="transaction-details">
+    				<h4>Please proceed to payment gateway to transfer the fund.</h4>
+    			</div>
+        		<div class="afterDeposit-btn-container">
+    				<a href="javascript:void(0);" onclick="_Deposit.showPg('${d.R_PGURL}');" id="btnShowPg" class="c-btn c-btn--large">SUBMIT</a>
+    			</div>
+    	  </div>
+		</div>
+	</div>
+</script>
+<script type="text/html" id="rec-upload-tpl">
+	<form name="recUploadForm" id="recUploadForm" enctype="multipart/form-data" class="c-login__form form-horizontal">
+        <h2 class="section-title">Deposit</h2>
+       	<div>
+        	<div>
+        		<h4>Transaction ID : ${d.transid}</h4>
+        		<h4>Please upload bank deposit slip.</h4>
+        	</div>
+            <div>
+                 <h3>Attachment</h3>
+                 <div class="col-sm-10">
+                    <input class="col-sm-8" type="file" name="receipt" accept="image/*">
+                 </div>
+           </div>
+            <div>
+                <div class="col-sm-10">
+        		  <a href="javascript:void(0);" onclick="_Deposit.uploadRec();" class="c-btn">UPLOAD</a>
+        		  <a href="javascript:void(0);" onclick="_Deposit.showSuccess();" class="c-btn">SKIP</a>
+                </div>
+        	</div>
+         </div>
+		<input type="hidden" name="token" id="token" value="${d.token}">
+		<input type="hidden" name="t" id="t" value="${d.ticketid}">
+	</form>
+</script>
+<script type="text/html" id="dep-promo-tpl">
+<label class="checkbox">
+	<input type="radio" name="promoId" value="${d.R_PROMO_ID}" /> ${d.R_PROMO_TITLE} <span tpl-if="${d.showTnc == true}">/ <a href="javascript:void(0);" data-toggle="modal" data-target="#promotc" data-backdrop="false" onclick="_Deposit.showPromoTnc(${d.R_PROMO_ID})">Terms and Conditions</a></span>
+</label>
+</script>
+<script type="text/html" id="wallet-transfer-in-tpl">
+<p class="inBtn" class="wallet-trf-in"  id="transferin_${d.wallet}" title="${d.title_in}">IN</p>
+</script>
+<script type="text/html" id="wallet-transfer-out-tpl">
+<p class="outBtn" id="transferout_${d.wallet}" class="wallet-trf-out" title="${d.title_out}">OUT</p>
+</script>
+<script type="text/html" id="wallet-ccl-side-seamless-row-tpl">
+<div class="balanceContainer" data-dom="ccl-row">
+    <input type="hidden" name="w_bal_${d.prefix}${d.wallet}" id="w_bal_${d.prefix}${d.wallet}" data-wallet-value="w${d.prefix}_${d.wallet}" value="0" >
+    <div class="column">
+        <h1 class="subWalletTitle">${_lang.internal.name}</h1>
+        <img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/icon/Dropdown_icon.png" class="dropDown_wallet"/>
+
+        <div class="dropdownBalanceWrapper">
+            <ul class="subWalletAList">
+                                    <li>TFGaming</li>
+                                    <li>WM Club</li>
+                                    <li>DG Club</li>
+                                    <li>Ebet Club</li>
+                                    <li>Allbet Club</li>
+                                    <li>Hg Club</li>
+                                    <li>Evo Club</li>
+                                    <li>AG Club</li>
+                                    <li>Toptrend Slots</li>
+                                    <li>Pragmatic Slots</li>
+                                    <li>CQ9 Slots</li>
+                                    <li>JK Slots</li>
+                                    <li>SG Slots</li>
+                                    <li>PNG Slots</li>
+                                    <li>DT Slots</li>
+                                    <li>Gamatron</li>
+                                    <li>GP Club & Slots</li>
+                            </ul>
+        </div>
+    </div>
+
+    <div class="column">
+        <p class="balance" id="wallet_${d.prefix}${d.wallet}" data-wallet-display="w${d.prefix}_${d.wallet}">
+            <img src="${defImgPath}images/loading.gif" height="20" width="20" style="text-align: center;">
+        </p>
+        <div data-dom="transfer-wrapper"></div>
+    </div>
+</div>
+</script>
+<script type="text/html" id="wallet-ccl-row-tpl">
+<div class="balanceContainer" id="wallet_sa" data-dom="ccl-row">
+    <input type="hidden" name="w_bal_${d.prefix}${d.wallet}" id="w_bal_${d.prefix}${d.wallet}" data-wallet-value="w${d.prefix}_${d.wallet}" value="0" >
+    <div class="column">
+        <h1>${d.walletName}</h1>
+    </div>
+
+    <div class="column">
+        <p class="balance" id="wallet_${d.prefix}${d.wallet}" data-wallet-display="w${d.prefix}_${d.wallet}">
+            <img src="${defImgPath}images/loading.gif" height="20" width="20" style="text-align: center;">
+        </p>
+        <div data-dom="transfer-wrapper"></div>
+    </div>
+</div>
+</script>
+<script type="text/html" id="wallet-balance-row-tpl">    
+<tr>
+	<td width="50%" style="text-align:left;">
+		<input type="hidden" name="w_bal_${d.prefix}${d.wallet}" id="w_bal_${d.prefix}${d.wallet}" data-wallet-value="w${d.prefix}_${d.wallet}" value="0" >
+		${d.walletName}
+	</td>
+	<td style="vertical-align:middle;">
+		<div id="wallet_${d.prefix}${d.wallet}" data-wallet-display="w${d.prefix}_${d.wallet}" style="text-align:right;font-size:13px;">
+			<img src="${defImgPath}images/loading.gif" height="20" width="20" style="text-align: center;">
+		</div>
+	</td>
+</tr>
+</script>
+<script type="text/html" id="dep-promo-tnc-tpl">
+    <div class="modal-dialog">
+        <div class="modal-content">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin:15px">X</button>
+             <div class="modal-body" style="margin-top:40px;color:#000!important">
+                  ${d.R_PROMO_CONTENT}
+              </div>
+         </div>
+    </div>
+</script>
+<script type="text/html" id="bank-info-tpl">
+<div class="bank-detail">
+	<h4>${d.bankName}</h4>
+	<p class="bank-title">Bank Account Name</p><span style="margin:5px;">:</span><p class="banking-details">${d.bankAccName}</p>
+	<p class="bank-title">Bank Account Number</p><span style="margin:5px;">:</span><p class="banking-details">${d.bankAccNo}</p>
+	<p class="bank-title">Min.</p><span style="margin:5px;">:</span><p class="banking-details">${currencyLbl} 50.00</p>
+	<p class="bank-title">Max.</p><span style="margin:5px;">:</span><p class="banking-details">${currencyLbl} 50,000.00</p>
+</div>
+</script>
+<script type="text/javascript">
+	var loginFlag = '1';
+	var processing_cap = "Processing";
+	var _p = 'mywallet';
+	var lang = 'english';
+	var loginFirstMsg = "Please login first to play game.\nIf you don't have account, please register for an account.";
+	var country = 'MY';
+	var directmarket = '';
+	var currencyLbl = '';
+	var imgPath = 'https://jdyecl6er.cloudcdnetw.com/ebv3/m/';
+	var defImgPath = 'https://defthecdn2891.cloudcdnetw.com/';
+	var defJsUrl = 't/default/';
+	var processing = 'Processing';
+	var transfer_successful = 'Transfer Successful';
+	var xmlURL = 'https://eclxml.cloudcdnetw.com/';
+    var _lang = {"4d":"4D","3d_slots":"3D Slots","3d_game":"Games","247support_livechat":"<span>24\/7Support<\/span>Live Chat","247help_support":"24\/7 Help & Support","about_us":"About Us","all_rights_reserved":"All rights reserved","arcade":"Arcades","agree":"Agree","amount":"Amount","address":"Address","arcades":"Arcades","affiliates":"Affiliates","account":"Account","about":"About","agree_first":"Please agree this agreement first, click agree button","activebet":"Active Bet","affiliate_code":"Affiliate Code","announcement":"Announcement","all_games":"All Games","all":"All","agreement_title":"Agreement Statement Rules","arcade_games":"Arcade Games","attachment":"Attachment","app_upgrade":"App upgrade in progress.","bonus_details":"Bonus Details","bank":"Bank","acc_name":"Account Name","acc_no":"Account No.","back":"Back","banking_options":"Banking Options","banking":"Banking","blackjack":"Blackjack","baccarat":"Baccarat","balance":"Balance","big":"Big","bet_now":"Bet Now","bulletin":"Bulletin","betting_tips":"Betting Tips","betslip_id":"Betslip ID","betting":"Betting","bank_deposit":"Bank Deposit","bankslip_status":"Bankslip Upload Status","bankslip_ok_msg":"Bankslip upload successfully! Thank you!","contact_us":"Contact Us","change_gdcode":"Change Code","confirm":"Confirm","customer_service":"Customer Service","contact_number":"Contact Number","code":"Code","change_password":"Change Password","city":"City","card_games":"Card Games","currency":"Currency","contact_info":"Contact Info","confirm_new_password":"Confirm New Password","content":"Content","cancel":"Cancel","casino_preview":"Casino Preview","close":"Close","credit_limit":"Credit Limit","customer":"Customer","current_balance":"Current Balance","current_password":"Current Password","casino":"Live Casino","coming_soon_game":"This game will be available soon, please stay with us.","card_table":"Card & Table","credit_msg":"Currently your account have zero credit. Would you like to make a deposit?","coming_soon":"Coming Soon","click_here_cap":"CLICK HERE","caribbean":"Caribbean","choose_bank":"Select Bank Account","copy":"Copy","disclaimer":"Disclaimer","dd":"dd","demo":"DEMO","desktop":"Desktop","deposit":"Deposit","deposit_now":"Deposit Now","deposit_status":"Deposit Request Status","deposit_forbidden_error_alert":"Please Try Again After 30 Seconds.","dps_failed_msg":"Your deposit request has failed! Please retry or contact our customer service.\\n","dps_ok_msg":"Your deposit request has been submitted successfully. You can check the processing status in History page.<br>Your transaction id is: ","disagree":"Disagree","date_range":"Date Range","date":"Date","dob":"Date of Birth","dragon_tiger":"Dragon Tiger","daily_deposit":"Daily Deposit","details":"Details","deposit_method":"Deposit Method","diamond_slots":"Diamond Slots","dont_want_claim_promo":"Do not want to claim any Promotion ( Rollover x 1 )","dragontiger":"Dragon Tiger","download_password_prompt":"Password must be mininum 6 characters & maximum 15 characters","download_password_same":"Password cannot be same as site login password","datetime":"Date\/Time","description":"Description","done":"Done","direct_deposit":"Online Banking & ATM","deposit_processing":"Your previous deposit record is in progress. You may submit further deposit after processing of previous deposit record. Thank you!","error_login":"Login failed : Invalid Username and\/or Password","err_ag_not_exist":"Affiliate does not exists!","err_empty_txtbox":"You must enter value.","err_empty_upload":"You must attach an attachment.","err_empty_select":"You must select one of the option.","err_empty_deposit_date":"Please ensure deposit date is not empty.","err_numeric_value":"The input must be Numbers.","err_alphanumeric_value":"The input must be Numbers or Alphabets.","err_cannot_insert":"Failed to save registration data!","err_exist_acc":"Username already exists, please use other username.","err_exist_contact":"Mobile number already exists, please use other mobile number.","err_exist_registerdata":"Registration failed ! Existing information detected ( Email Address or Contact Number ) , please use >Forget Password< to recover your account. Or else, please contact livechat for assistance.","err_exist_email":"Email already exists, please use other email.","err_exist_nickname":"Nickname already exists, please use other nickname.","err_nickname_username":"Nickname cannot be same with username","err_exist_lineid":"LINE ID already exists, please use other LINE ID.","err_exist_wechatid":"Wechat ID already exists, please use other Wechat ID.","err_forget_password_1":"Reset password error 2","err_forget_password":"Reset password error 1","err_min_length":"Enter at least {0} characters","err_decimal_length":"Please enter a correct number, format 0.00","email":"Email","err_format":"The input format is wrong","empty_game_cat":"Sorry,no game of this category at the moment","e_casino":"Slots","email_address":"Email Address","emerald_slots":"Emerald Slots","err_pausebet":"Sorry, there might be some problem with your account. Please contact customer service!","error":"Error","english":"English","expired":"Expired","esport":"E-Sports","full_name":"Full name","forget_password":"Forgot Password","fair_gaming":"Fair Gaming","failed":"Failed","faq":"FAQ","from":"From","fail":"Fail","fun_play":"Fun Play","female_short":"F","faq2":"FAQ","f4d":"4D","fixed_odds":"Fixed Odds","feature":"Feature","female":"Female","featured":"Featured","games":"Games","gender":"Gender","gdcode2":"Code","general_term_cond":"General Terms and Conditions","games_keno":"Games & Keno","general_term_cond_of_promo":"General Term & conditions of Promotion","general_tnc":"General Terms & Conditions of Promotions","game_rule":"Game Rule","hd":"HD","history":"History","hotline_400":"400 Hotline","home":"Home","here":"here","how_to_deposit":"How To Deposit","how_to_withdraw":"How To Withdraw","how_to_transfer":"How To Transfer","how_join":"How To Join","how_to_register":"How To Register","help":"HELP","information":"Information","iprestrict_dear_customer":"Dear Valued Customer,","iprestrict_note":"Due to game policies you can't access the page from this region location.","iprestrict_desc":"Should you have any queries please <a href=\"javascript:void(0);\" onclick=\"window.open('https:\/\/lc.chat\/now\/8753026\/2','livechat', 'width=600,height=560,scrollbars=0,resizable=1,menubar=0;');\">contact us<\/a>","join":"Join","jp_bonus":"JP Bonus","join_now":"Join Now","jackpot":"Jackpot","jackpot_game":"Jackpot Games","keno":"Keno","lottery":"Lottery","login":"Login","livedealer":"Live Casino","loading":"Loading","live_casino":"Live Casino","login_first":"Please login first to play game.\\nIf you don't have account, please register for an account.","login_first_app":"Please login first to play game. If you don't have account, please register for an account.","loss":"Loss","lose":"Lose","luckystrike":"Luckystrike","logging_in":"Login In Progress","live_chat":"LIVE CHAT 24 HOURS","launch_payment":"Launch Payment","less_info":"Less Info","line100":"LINE 100","line15":"LINE 15","line20":"LINE 20","line40":"LINE 40","line5":"LINE 5","language":"Language","mobile_platform":"Mobile Platform","mm":"mm","my_account":"My Account","mobile_phone":"Mobile Number","multihand_poker":"Multihand Poker","must_login":"Please login as Member first.","male_short":"M","member":"Member","male":"Male","main":"Main","more":"More","message":"Message","minimum":"Minimum","maximum":"Maximum","min_max_limit":"Min\/Max Limit: ##SYSMIN## \/ ##SYSMAX##","message_cat_1":"Account information","more_info":"More Info","main_wallet":"Main Wallet","minutes":"minutes","maintenance_msg":"Product is under maintenance. Please try again later. Thank you.","message_center":"Message Center","new_password":"New Password","nickname":"Nick Name","nickname_note":"Please update your Nickname","nickname_once":"You can only change your nickname once","no_short":"N","number":"Number","new":"New","no":"No","no_thanks":"No, Thanks","no_available_bank":"No Available Bank","next":"Next","others":"Others","old_password":"Old Password","optional":"Optional","p2p":"P2P","pending":"Pending","promotion2":"Promotion","password":"Password","PLEASE_SELECT":"Please select","privacy_policy":"Privacy Policy","personal_info":"Personal Info","pls_gdcode":"Verification Code","profile":"Profile","promotion":"Promotion","postcode":"Postcode","play_now":"PLAY NOW","pyramid_poker":"Pyramid Poker","pc_dl":"PC Download","poker":"Poker","payment_method":"Payment Methods","progressive":"Progressive","password_forget_success":"Password has been successfully reset and emailed to you. Please check your mailbox to login with new password.","promo":"Promo","push":"Push","play":"Play","payout_table":"Payout Table","payout":"Payout","password_error_01":"Sorry, All fields is required","password_error_02":"New password and confirm password does not match","password_error_03":"Sorry, old password incorrect","password_error_04":"Please enter only alphabet and numeric character","password_error_05":"Old password can not same with new password","password_error_06":"The password must be more than six words words","password_error_07":"Passwords Not Valid, password must Minimum 6 and Maximum 15 characters with combination of symbol, number and alphabet ( ex : ex@mple33 )","password_error_scr_01":"Password must be mininum 6 characters & maximum 12 characters","password_error_scr_02":"Password must contain at least 1 lowercase, 1 uppercase and 1 number","processing":"Processing","progressive_jackpot":"PROGRESSIVE<span>JACKPOT<\/span>","pt_slogan":"Now you can play anywhere, Anytime you want.","platinum_slots":"Platinum Slots","popular":"Popular","payment_gateway":"Payment Gateway","personal_information":"Personal Information","previous":"Previous","product":"Product","proceed_without_promotion":"Proceed without any of the promotions above. ( Rollover x 1 )","ptdownload_password_prompt":"Password must be mininum 6 characters & maximum 15 characters","ptdownload_password_same":"Password cannot be same as site login password","pt_maintenance_msg":"Product is under maintenance. Please try again later. Thank you.","pg_deposit_remark":"Please proceed to payment gateway to transfer the fund.","pg_deposit_success":"The payment is successful. Your funds are being verified and will be transferred to your account within 5-10 minutes.","pg_deposit_fail":"The payment is failed. Kindly try to deposit again.","pg_deposit_pending":"Your payment in currently in processing.","pg_redirect_website":"Redirecting back to website..","question_chat":"To talk to our Customer Service Representative,","redeem_success":"Redeem Successful","redeem_voucher":"Redeem Voucher","rational_betting":"Rational Betting","responsible_gaming":"Responsible Gaming","reset":"Reset","re-enter_password":"Re-enter Password","real_play":"Real Play","rights_reserved":"Copyright &copy; 2021 EclBet www.eclbet.com. All Rights Reserved","ref":"Reference Number","roulette":"Roulette","register":"Register","real_name":"Real Name","require_field":"Required field","rules_regulation":"Rules & Regulations","registration":"Registration","rebate":"Rebate","registered_email":"Registered Email Address","result":"Result","refresh":"Refresh","real_bet":"Real Bet","remarks":"Remarks","reason_reject":"Reason of Reject","reason":"Reason","reg_note1":"Thank you for joining EclBet and welcome to betting world.","reg_note2":"We proudly provide numerous of betting gaming compare to other betting site and will try the best to serve our customer","reg_note3":"The following is your username & password, Good Luck!","reg_success":"Successful Register!","rg_val_nickname_alphanumeric":"Nickname must only contain characters or numbers","rg_val_nickname":"Please insert your nickname","rg_val_line_id_alphanumeric":"LINE ID must only contain characters or numbers.","reward_list":"Reward List","submit":"Submit","scratch_cards":"Scratch Cards","successful":"Successful","status":"Status","sign_out":"Logout","success_msg":"You have registered successfully! Enjoy your game.","search":"Search","success":"Success","slots":"Slots","slot_games":"Slot Games","single_poker":"Single Poker","soft_games":"Soft Games","scratchcards":"Scratch Cards","sic_bo":"Sic Bo","sports":"Sports","special_event":"Special Event","sports_info":"Sports Info","stock_market":"Stock Market","sport_betting":"Sports Betting","slots2":"Slots","space":" ","stake":"Stake","sportsbook":"Sportsbook","sports_book":"Sports Book","stock":"Stock","small":"Small","sitemap":"SiteMap","special":"Special","slots_clubs":"Slots Clubs","sicbo":"Sic-Bo","slots_slogan":"Demo Play, Real Play, Free Spin!","SPORT_AND_LIVE":"Sports Betting & Live Betting","SPORT_AND_LIVE_DESC":"Get all the results from sports and matches we offer.","sapphire_slots":"Sapphire Slots","see_rule":"See Rules","save":"Save","simplified":"Simplified","skip":"Skip","scatter":"SCATTER","subject":"Subject","support":"Supports","step":"STEP","scr_pass_criteria":"Here are the criteria of password input:","scr_pass_criteria1":"Minimum 6 and Maximum 12 characters","scr_pass_criteria2":"Must contain at least 1 lowercase, 1 uppercase and 1 number","seconds":"seconds","transfer":"Transfer","total":"Total","tc":"Terms and Conditions","tooltip_gdcode":"Please enter the 4 digit you see","tooltip_username":"Create a Username of between 5 to 15 characters, contain only alphabets (a-z) or numbers (0-9) or underscore (_).","tooltip_password":"Create a Password between 6 to 15 characters, symbols are not allowed.","tooltip_re_password":"Please re-enter your password, and please ensure that your passwords match.","tooltip_email":"Please enter a valid email address (Eg.xxx@yahoo.com,xxx@gmail.com).","tooltip_contact":"Please enter your contact number, contain only numbers (0-9) or dash(-).","tooltip_registration":"Please fill in all details listed below","to":"To","transfer_status":"Transfer Status","time":"Time","type":"Type","table_games":"Table Games","top_games":"Top Games","tbl_limit":"Table Limit","transfer_details":"Transfer details","term_of_use":"Term of Use","title":"Title","tutorial":"Tutorial","tc6":"Terms & Conditions","table_card":"Table & Card","table":"Table Games","top":"Top","transaction_type":"Transaction Type","tooltip_sq":"Select your security question for account identification purposes.","transaction_limit":"Transaction Limit","transactionid":"Transaction ID","transfer_question":"Dear valued customer, due to insufficient credit balance in your game account. Do you wish to transfer additional credit from your main wallet?","transaction":"Transaction","transfer_in":"Transfer all balance from Main to {game}","transfer_out":"Transfer all balance from {game} to Main","transfer_in_warning":"Transfer all balance from Main to {game}, are you sure?","transfer_out_warning":"Transfer all balance from {game} to Main, are you sure?","transfertomain":"Transfer To Main","transfer_all_question":"Dear valued customer, due to insufficient credit balance in your game account. Do you wish to transfer ALL additional credit from your main wallet?","transfer_all":"Transfer All","username":"User Name","username2":"Username","update_successfully":"Update Successfully","update_failed":"Data update failed! Please retry or contact customer service for help.","no_data_in_table":"No data available in table","update":"Update","under_maintenance":"Under Maintenance","upload":"Upload","upload_bankslip":"Please upload bank deposit slip.","upload_bankslip_short":"Upload Deposit Slip","voucher_success":"Voucher successfully redeemed.","video_poker":"Video Poker","videopoker":"Video Poker","video_games":"Video Poker","vip":"Vip","virtual_sports":"Virtual Sports","view_more":"View More","video":"Video","video_slots":"Video Slots","valid_period":"Valid Period","voucher_left":"Vouchers Left","verify":"Verify","verify_cap":"VERIFY","verified":"Verified","welcome":"Welcome","withdrawal_note":" The name must match with your bank account name for withdrawal.","withdrawal":"Withdrawal","withdraw_status":"Withdrawal Request Status","withdraw_ok_msg":"Your withdrawal request has been submitted successfully. You can check the processing status in History page. \\nYour transaction id is: ","withdraw_failed_msg":"Your withdrawal request has failed! Please retry or contact our customer service for help.\\n","win":"Win","wallet2":"Wallet","winlose":"Win Lose","wechat":"Wechat","way243":"WAY243","yyyy":"yyyy","yes_short":"Y","CLMETHOD":{"1":"Internet Banking","2":"ATM Cash Deposit","4":"TeleBanking","5":"Counter Cash deposit","6":"Mobile Banking","8":"LinePay Transfer"},"CLSTATUS":{"1":"Approved","2":"Rejected","4":"New Request","5":"In Progress","6":"In Progress","7":"In Progress"},"1st":"1st","2nd":"2nd","3rd":"3rd","1st_Prize":"1st Prize","2nd_Prize":"2nd Prize","3rd_Prize":"3rd Prize","SPECIAL":"SPECIAL","CONSOLATION":"CONSOLATION","Slots":"Slots","Table":"Table","Keno":"Keno","Video_Poker":"Video Poker","Pyramid_Poker":"Pyramid Poker","Soft_Games":"Soft Games","Multihand_Poker":"Multihand Poker","w88_all":"ALL","w88_new":"NEW","w88_featured":"FEATURED","w88_top":"TOP","w88_progressive":"PROGRESSIVE","w88_slots":"SLOTS","w88_tablecards":"TABLE & CARDS","phone_verification_success1":"Code sent to your mobile number. Please key in the code and verify. Contact customer service if you not receive your code.","phone_verification_success2":"Code verified. You may proceed with the Promotion. Good Luck.","phone_verification_err1":"Duplicate Mobile Number detected. \nPlease contact our customer service.","phone_verification_err2":"Invalid Mobile Number. \nPlease fill in valid mobile number.","phone_verification_err3":"Invalid code filled. Please key in the correct verification code.","lpe88":"Lucky Palace","scr888":"SCR 888","rollex":"Rollex Casino","s8star":"8Star Casino","tbs":"TBS Bet","login_cap":"LOGIN","logout_cap":"LOGOUT","signup_cap":"SIGN UP","livechat_cap":"LIVE CHAT","confirm_password":"Confirm Password","download":"Download","activation_code":"Activation Code","activation":"Activation","verification_code_sent":"A 6 digits verification code has been sent to your mobile device. Kindly key in the code below to activate your account.","rg_val_activation":"Please insert your activation code","rg_val_activation_alphanumeric":"Activation code must only contain characters or numbers.","rg_val_username":"Please insert your username","rg_val_minlength":"Enter at least {0} characters","rg_val_username_alphanumeric":"Username must only contain characters or numbers.","rg_val_password":"Please insert your password","rg_val_password_alphanumeric":"Password must only contain characters or numbers.","rg_val_contact_number":"Please insert your contact number","rg_val_contact_number_numeric":"Please enter numbers into contact number","app_download":"App Download","download_app_note":"Download EclBet online app now","about_company":"ABOUT EclBet","about_company_note":"This Online Casino is a free-to-play website with no real money online gaming.","must_21":"MUST BE 21","must_21_note":"You must be 21 or over to play on this site.","telno":"Tel","social_media":"Social Media","rights_reserved2":"Copyright &copy; 2021 www.eclbet.com. All Rights Reserved","trn_msg":"You may find your last 50 transactions here","trn_type":"Searching History","trn_count":"Transaction Count","turnover":"Turnover","club":"Club","showing":"Showing","to2":"to","of2":"of","emptyTable":"No data available in table","no2":"No","sfirst":"First","slast":"Last","prev":"Prev","entries":"entries","infoEmpty":"Showing 0 to 0 of 0 entries","sprocessing":"Processing...","bh_details_lbl":"Bet History Details for ","rtp":"RTP","tt_username":"Enter username","tt_password":"Enter password","tt_email":"Enter email","tt_contact":"Enter contact number","tt_fullname":"Enter full name","tt_activation":"Enter activation code","tt":"TTG","pp":"Pragmatic","boom":"Booming","pson":"Playson","gameart":"Game Art","qt_hot":"Hot Games","qt_tk":"TK","qt_hab":"HAB","qt_qs":"QS","qt_elk":"ELK","qt_nlc":"NLC","qt_evp":"EVP","qt_bng":"BNG","qt_fng":"FNG","qt_rki":"RKI","qt_aug":"AUG","qt_bpg":"BPG","qt_sur":"SUR","qt_rg":"RG","qt_1x2":"1x2","qt_ids":"IDS","qt_sbs":"SBS","qt_cg":"CG","qt_spr":"SPR","qt_gfg":"GFG","qt_lbg":"LBG","qt_chi":"CHI","qt_bog":"BOG","qt_spg":"SPG","qt_gal":"GAL","qt_pug":"PUG","qt_mob":"MOB","qt_ot":"OT","qt_bbg":"BBG","qt_ygg":"YGG","qt_ki":"KI","qt_omi":"OMI","qt_sm":"SM","qt_rtg":"RTG","qt_wh":"WHG","qt_hwg":"HWG","qt_cbg":"CBG","qt_rdt":"RDT","qt_slots":"Slots","qt_table":"Table Games","qt_casino":"Live Casino","qt_vsports":"Virtual Sports","qt_vgames":"Virtual Games","qt_inst":"Instant Win","qt_shoot":"Shooting","qt_scratch":"Scratch Card","qt_fantasma":"Fantasma Games","gp_all":"All","gp_new":"New","gp_featured":"Featured","gp_top":"Top","gp_progressive":"Progressive","gp_slots":"Slots","pt_all":"All","pt_top":"Top","pt_progressive":"Progressive","pt_slots":"Slots","pt_arcade":"Arcades","pt_video":"Video","pt_table":"Table","pt_scratchcards":"Scratch Cards","tt_tt":"TTG","tt_pp":"Pragmatic","tt_boom":"Booming","tt_pson":"Playson","tt_gameart":"Gameart","sg_all":"All","sg_top":"Top","sg_slot":"Slots","sg_arcade":"Arcades","sg_fishing":"Fishing","sg_board":"Board","tc_all":"All","tc_top":"Top","tc_slots":"Slots","tc_arcade":"Arcades","jk_all":"All","jk_new":"New","jk_hot":"Hot","jk_slot":"Slots","jk_fishing":"Fishing","jk_ecasino":"Ecasino","jk_bingo":"Bingo","cq9_all":"All","cq9_slot":"Slots","cq9_table":"Table","cq9_arcade":"Arcades","png_all":"All","png_slot":"Slots","png_top":"Top","png_poker":"Poker","png_table":"Table","png_video":"Video","fishing":"Fishing","classic":"Classic","hot":"Hot","fun":"Fun","casual":"Casual","event":"Event","board":"Board","bbonus":"Buy Bonus","megaways":"Megaways","ecasino":"E-Casino","bingo":"Bingo","multi":"Multi-line","monopoly":"Monopoly","MBB":"Maybank Berhad","MBQR":"Maybank QRPAY \/ MAE","TNGQR":"Touch & Go QR","PBB":"P.B.B","CIMB":"CIMB Bank Berhad","HLB":"Hong Leong Bank Berhad","KKR":"Karsikorn Bank (K-Bank)","KTB":"Krung Thai Bank","BBL":"Bangkok Bank","SCB":"Siam Commercial Bank","UOBM":"UOB","OCBCM":"OCBC","UOBS":"UOB","OCBCS":"OCBC","CIMBS":"CIMB Bank Berhad","err":{"0":"Done","2":"Duplicate Username","3":"Duplicate Contact Number","4":"Duplicate Email Address","5":"Invalid Upline Information","6":"Create a Username of between 6 to 10 characters, contain only alphabets (a-z) or numbers (0-9)","11":"Invalid Username or Password.","11-7":"Please activate your account.","11-8":"Account has been Suspended","12":"Invalid Username or Password.","13":"Invalid GD Code. Please refresh GD Code and try again","14":"Invalid Format","15":"Invalid activation code.","16":"Nickname cannot be same with username","17":"You are not allowed to login, please contact customer service for more details.","50":"Deposit Bank Error","51":"Deposit Bank Account Error","52":"Deposit Amount Less Than Bank Minimum Requirement","53":"Deposit Amount More Than Bank Maximum Requirement","54":"You have a deposit is pending for approval.","70":"Invalid Promotion","71":"Invalid Promotion","72":"Deposit Amount Less Than Promotion Minimum Requirement","73":"Invalid Account Information","74":"Invalid Promotion - [F]","75":"Invalid Promotion - [T-1]","76":"Invalid Promotion - [T-2]","100":"Deposit Error","150":"Product under maintenance. Please try again later.","200":"Withdrawal Error","200-7":"Invalid withdrawal OTP","201":"Withdrawal Bank Account Error","202":"Withdrawal Bank Account Error","203":"Withdrawal Bank Account Information Insufficient","204":"Invalid Withdrawal Password","205":"Withdrawal Bank Account Error - Bank Account Has Been Registered","210":"Withdrawal Amount Error [MIN]","211":"Withdrawal Amount Error [MAX]","212":"You have a withdrawal is pending for approval.","220":"Withdrawal Error","230":"Insufficient Balance For Withdraw","300":"You can only request for OTP once per minute, please try again later","301":"OTP is invalid","302":"Your OTP has expired. Kindly request again.","400":"Transfer Error.","401":"Transfer Error.","7-401":"Unable to perform withdrawal due to product account not found.","402":"Transfer Error.","408":"Invalid Transfer [Amount not allow].","409":"Invalid Transfer [Amount not allow].","410":"Transfer amount more than wallet balance.","420":"Wallet transfer is not allowed.","444":"Transfer Error. Please Contact Customer Service.","500":"Account Error. Please Contact Customer Service.","501":"Withdrawal Rejected [Exceed Daily Limit]","510":"Invalid Password.","511":"Password & Confirm Password not match.","512":"Invalid Withdrawal Password.","513":"Withdrawal Password & Confirm Password not match.","600":"Your security question and answer does not match with your account registered information","601":"Your Username and Email is not match with your account registered information","605":"Account not found.","606":"Invalid Voucher Code","606-1":"Invalid Voucher Code","606-2":"The Voucher is already redeemed","606-3":"The Vouchers are Finished Redeemed","606-4":"The Voucher is not redeemable as it's haven't start or it's already expired","606-5":"Invalid Account","607":"Reset password reset link has expired.","800":"Invalid Report Information","999":"User Session Failure.","-99":"Insufficient Information!"},"common":{"account_balance":"Account Balance","any_question":"Any question can contact our ","today":"Today","last_7":"Last 7 days","last_30":"Last 30 days","select_promo":"Select Promotion","more_info":"More Info","no_promo":"I prefer not to receive any promotion","total_bet_amount":"Total Bet Amount","personal_setting":"Personal Setting","announcement_center":"Announcement Center","my_rakeback":"My Rakeback","my_bonus":"My Bonus","latest_news":"Latest News","inbox":"Inbox","feedback":"Feedback","accept_promo_email":"Agree to receive promotion email","login_password":"Login Password","original_password":"Original Password","receive_bonus":"Receive Bonus"},"depo":{"tran_or_with":"Transfer or withdrawal operation","bank_transfer":"Bank Transfer","online_payment":"Online Payment","transfer_success":"Transfer Success","depo_procedure":"Please apply in accordance with the following procedure","depo_procedure_1a":"Prior\u00a0to deposit\uff0cplease click","depo_procedure_1b":"to contact our online customer service to obtain the latest bank transfer information.","depo_procedure_2":"After the deposit is completed, please completely fill out the transfer form in correct and timely matter.","depo_procedure_3":"We will add the deposit amount to your account as soon as we confirm receipt of your payment.","depo_precautions":"Precautions","depo_precautions_1":"Please make deposit by following the procedure we provided, the Company shall not be responsible for any mistakenly deposited amount to other's account or deactivated account, thank you for your cooperation.","depo_precautions_2":"We recommend that you enter 0 as the bottom amount (total amount in multiples of 10) at the time of transfer. Such as: \u00a5 110, \u00a5 590, \u00a5 1010, and let us know the exact amount in order for us to process quickly.","depo_precautions_3":"We recommend that you use the same bank with us for transfer, the deposit time is relatively faster.","depo_precautions_4":"If you deposit using different bank than ours, please email the \"bank in receipt\" or \"transaction successful print screen\" to ","depo_precautions_5":"If use online bank transfer, please state the account name, transaction number and deposit time for quick processing.","depo_precautions_6a":"For further assistance, please click ","depo_precautions_6b":"contact our Online Customer Service","submit_depo_form":"Submit deposit form","local_depo_remark":"Please fill in each item in <strong>[Bank Transfer Form]<\/strong> correctly, we will process your request immediately upon your submission.","local_depo_banks":"Deposit to WinningWorld banks","deposit_method":"Deposit methods","select_method":"Select method","deposit_time":"Deposit time","online_deposit_bank":"Deposit bank","online_deposit_remark":"Single deposit minimum <strong>100yuan<\/strong>\uff0cmaximum <strong>20,000yuan<\/strong>\u3002\uff08If deposit more than <strong>20,000yuan<\/strong>\uff0c recommend using bank transfer\uff09","depo_success":"Greetings, your deposit form has been submitted successfully.","depo_contact":"If you need any assistance or have any questions, you can always contact our ","depo_history":"Deposit History","depo_no":"Deposit No.","depo_type":"Deposit Type"},"with":{"tran_or_depo":"Transfer or deposit operation","preferred_account":"Preferred Account","new_account":"New Account","bank_name":"Bank Name","account_holder_name":"Account holder Full Name","account_holder_name_remark":"Your bank account name should be same with the registered account name","province":"Province","city":"City","branch":"Branch","with_success":"Greetings, your withdrawal form has been submitted successfully, we will process your withdrawal shortly.","with_contact":"If you need any assistance or have any questions, you can always contact our ","with_no":"Withdrawal No.","bank_no":"Bank No."},"tran":{"depo_or_with":"Deposit or withdrawal operation","balance_transfer":"Balance Transfer","tran_account":"Transfer Account","target_account":"Destination Account","tran_remark_1a":"Member must transfer a minimum of ","tran_remark_1b":"to destination account.","tran_remark_2":"Member should first transfer balance back to main wallet if member wish to make withdrawal.","tran_success":"Greetings, your transfer form has been submitted successfully, we will process your transfer shortly.","tran_contact":"If you need any assistance or have any questions, you can always contact our ","tran_history":"Transfer History","tran_amount":"Transfer Amount","tran_all_warn":"Confirm to transfer all balance to main wallet?"},"wallet":{"main":"Main Wallet","scr888":"SCR888","lpe88":"LPE88","s8star":"S8Star","rollex":"Rollex","playboy":"Playboy","suncity":"SunCity","tbs":"TBS","gw99":"GW99","newtown":"NEWTOWN","tc":"PT Slots","win8":"3WIN8","sky3888":"SKY3888","fd":"4D","magnum_f4d":"4D","ibc_sb":"Maxbet Esports & Sports","internal":["TFGaming","WM Club","DG Club","Ebet Club","Allbet Club","Hg Club","Evo Club","AG Club","Toptrend Slots","Pragmatic Slots","CQ9 Slots","JK Slots","SG Slots","PNG Slots","DT Slots","Gamatron","GP Club & Slots"],"pt":"PT Club & Slots","ebet":"Ebet Club","evg":"EVO Club","mansion":"M Club & 3D Slots","spade":"SG Slots","hc":"Esports","w88":"GP Club & Slots","wm":"WM Club","allbet":"Allbet Club","qtech":"QTech Slots","sa":"Salon Club","sing":"3Sing Sports","cmd":"CMD Esports & Sports","sexy":"SG Club","joker":"JK Slots","scr":"918 Slots","imone":"Inplay Esports","igk":"IGKbet Sports","internal2":[]},"myhistory":{"main":"Main Wallet","scr888":"SCR888","lpe88":"LPE88","s8star":"S8Star","rollex":"Rollex","playboy":"Playboy","suncity":"SunCity","tbs":"TBS","gw99":"GW99","newtown":"NEWTOWN","tc":"PT Slots","win8":"3WIN8","sky3888":"SKY3888","fd":"4D","ibc":"Maxbet Esports & Sports","4d":"4D","pt":"PT Club & Slots","hg":"Hg Club","ebet":"Ebet Club","ebets":"Ebet Club","evg":"EVO Club","mansion":"M Club & 3D Slots","spade":"SG Slots","spadegaming":"SG Slots","toptrend":"Euro Slots","ttg":"Euro Slots","hc":"Esports","w88":"GP Club & Slots","gp":"GP Club & Slots","wm":"WM Club","allbet":"Allbet Club","ab":"Allbet Club","absw":"Allbet Club","qtech":"QTech Slots","qt":"QTech Slots","sa":"Salon Club","sing":"Sportbook","sing3":"3Sing Sports","cmd":"CMD Esports & Sports","sexy":"SG Club","joker":"JK Slots","pragmatic":"Pragmatic Slots","scr":"918 Slots","imone":"Inplay Esports","cq9":"CQ9 Slots","igk":"IGKbet Sports","evolution":"EVO Club","gw":"JK Slots","asiagaming":"AG Club","gamatron":"Gamatron","dg":"DG Club","playngo":"PNG Slots","dreamtech":"DT Slots","tfgaming":"TFGaming","ezugi":"Ezugi Club"},"slot":"Slot","live":"Live","alert":"Alert","app":"App","prediction":"Prediction","daily_activity":"Daily Activity","daily_activity_cs":"Coming Soon","joinus_today":"Join Us Today !","rock_roll":"Let's Rock & Roll !","dowload_now":"Download Now","header_socialmedia":"Social Media","esports":"Esports","slots_games":"Slots Games","4d_lottery":"4D Lottery","ranking":"Ranking","number_game":"Number Game","howtojoin":"How To Join","tnc":"Terms & Conditions","mywallet":"My Wallet","livechat":"Live Chat","bank_acc":"Bank Account","security":"Security","add_bank_acc":"Add Bank Account","bank_acc_success":"Bank Account has been successfully added!","bank_receipt_info_1":"Please upload a photo of your bank account with your full name. It can be a bank statement, e-letter statement and phone banking apps.","bank_receipt_info_2":"Please sensor or cover up other sensitive information.","bank_receipt_info_3":"This verification will take about 5 to 30 minutes. Please contact Live Chat if your verification status is not updated after 30 minutes.","bdoc_upload_success":"Photo uploaded","main_announcement":"Announcement","main_more":"More","official_website":"Official Website","bank_copy_msg":"Copied","main_page_menu":"Menu","main_page_video":"Video","main_page_event":"Highlight Event","main_page_partners":"AMBASSADORS & COLLABORATES","main_page_slogan":"PLAY HERE, WIN HERE","main_page_mobile_app_desc":"Download our latest mobile app, start playing with safety and convenience.","main_page_mobile_app":"MOBILE APPLICATIONS","main_page_download_playstore":"Download <br\/> Via Playstore","main_page_download_appstore":"Download  <br\/> Via Appstore","main_page_footer1":"ECLBET established in 2017.","main_page_footer2":"Well known multination company. Fast growing in Malaysia, Singapore and Vietnam.","main_page_footer3":"Accumulated more than 100,000 players.","read_more":"READ MORE","card":"Card Games","scr_slot":"918 Slot","AllGames":"All","TopGames":"Top","Popular":"Popular","CardGames":"Video","pragmatic_slots":"Pragmatic","microgaming_slots":"Microgaming","isoftbet_slots":"Isoftbet","habanero_slots":"Habanero","genesis_slots":"Genesis","single_player":"Single Player","multi_player":"Multiplayer","play_responsible":"PLAY RESPONSIBLE","footer_copyright1":"All contents &copy;","footer_copyright2":"All Rights Reserved","draw_no":"Draw No","payout_note1":"Prize money for Big Forecast","payout_note2":"For this Forecast, as shown in the table below, with every $1 bet, the 1st Prize pays $2,500, 2nd Prize $1,000, 3rd Prize $500, Special Prize $200 and Consolution Prize $60.","payout_bigforecast":"BIG FORECAST","payout_amount":"PRIZE AMOUNT","payout_note3":"Prize money for Small Forecast","payout_note4":"For this Forecast, as shown in the table below, with every $1 bet, the 1st Prize pays $3,500, 2nd Prize $2,000, 3rd Prize $1,000.","submit_cap":"SUBMIT","submit_dob":"SUBMIT","submit_otp":"SUBMIT","cancel_otp":"CANCEL","resend_otp":"RESEND","joinnow_cap":"JOIN NOW","demo_now":"DEMO","mobile_site":"MOBILE SITE","more_info_cap":"MORE INFO","check_dep_status_cap":"CHECK DEPOSIT STATUS","cancel_transaction_cap":"CANCEL TRANSACTION","cancel_transaction_confirm_question":"Are you sure want to cancel the transaction?","cancel_deposit_success":"Your deposits transaction has been cancelled. Please submit again with correct deposit details.","cancel_withdrawal_success":"Your withdrawal transaction has been cancelled.","promotion_cap":"PROMOTION","livecasino_cap":"LIVE CASINO","transfer_all_cap":"TRANSFER ALL","transfer_all_to_main_cap":"TRANSFER ALL TO MAIN WALLET","howto_cap":"HOW TO","howtojoin_cap":"HOW TO JOIN","howtodeposit_cap":"HOW TO DEPOSIT","howtotransfer_cap":"HOW TO TRANSFER","progressive_jackpot_cap":"PROGRESSIVE JACKPOT","promo_claim":"CLAIM","app_notice_note":"Secure, fast and elegant.","make_min_deposit":"Please make a minimum deposit of MYR 30.","bonus_claimed":"You have claimed Angpao for today.","gift_status_win1":"Congratulation!","gift_status_win2":"You Won","gift_status_lose1":"You did not get any cash prize","gift_status_lose2":"Please try again tomorrow","banking_info":"Banking Information","wallet_summary":"WALLET SUMMARY","balance_cap":"BALANCE","main_wallet_balance":"Main Wallet Balance","real":"REAL","mobile":"Mobile","promo_tnc":"General Promotional Term & Conditions","how_to_withdrawal":"How To Withdrawal","myaccount":"My Account","bank_option":"Bank Option","game_provider":"Game Provider","myacc_bank_note":"Please take note that bank verification is optional. You may still able to withdraw your fund anytime.","transfer_all_ask":"Are you sure to transfer all balance back to Main wallet","transfering_to_main":"Transferring to main wallet","membership":"Membership","verify_mobile":"Verify Mobile Number","continue_cap":"CONTINUE","otp_step":"Please enter the One-Time PIN as shown in the SMS sent to your registered mobile number and click Continue","otp_info":"SMS sent to your mobile number","otp_verified_msg":"Your mobile number has been verified. Thank you.","footer_help_support":"24\/7 Help & Support","footer_company_product":"Products","footer_casino":"Live Casino","footer_sports":"Sportsbook","footer_slots":"Slots Club","footer_lottery":"4D lottery","footer_payment_method":"Payment Method","footer_aboutus":"About Us","footer_tnc":"Terms & Conditions","footer_promotion":"Promotions","footer_how_to_deposit":"How to Deposit","footer_how_to_withdrawal":"How to Withdrawal","footer_how_to_transfer":"How to Transfer","footer_contactus":"Contact Us","footer_title_1":"WELCOME TO ECLBET ONLINE CASINO","footer_title_2":"GAMES, BONUSES, REWARDS","footer_title_3":"ECLBET Games - a true internet casino game","footer_desc_1":"ECLBET Casino offers you premium,world-class internet casino gaming software overlaid with enough local flavour to make you go frantic-that's cool. ECLBET Casino offers you premium,world- class internet casino gaming software overlaid with enough local flavour to make you go frantic-that's cool.","footer_desc_2":"We offer more than 200 online casino games, covering all the table favourites and including a range of top-notch themed slots. If you're a first-time visitor, we'd like to extend you a bis first time visitor, we'd like to extend you a big first deposit casino welcome bonus by offering you 100% Welcome Bonus just for joining us.","footer_desc_3":"At the ECLBET Games you will find everything from table games such as blackjack and roulette, slot machines, videoslots, videopoker, minigames and other casino games - in essence, everything that you would like to play at an internet casino is here for you to enjoy.","footer_prediction":"Prediction","footer_ranking":"Ranking","footer_faq":"FAQ","footer_numbergame":"Number Game","footer_bettingrules":"Betting Rules & Regulations","footer_title_help":"Help","footer_title_links":"Links","ptdownload_password":"Min 6 & Max 10 characters","download_now_cap":"DOWNLOAD NOW","update_password":"Update Password","android_download":"Android Download","download_link":"Download Link","pc_download":"PC Download","ios_download":"IOS Download","app_download_banner_desc":"Secure, fast and elegant","app_download_banner_download":"DOWNLOAD","gp_3step":"3 Steps to download GP Andriod Version","gp_step1":"Step 1 : Click the DOWNLOAD button below and save it to your android device.","gp_step2":"Step 2 : Locate the downloaded application and install it.","gp_step3":"Step 3 : Login by using the Username\/Password that is provided at the top of this page.","gp_step_tip":"Tip : Change password by entering a new password at the password column above and click on the icon next to it to update your new password.","ag_3step":"3 Steps to download AG Gaming Android & IOS Version","ag_step1":"Step 1 : Kindly access AG Club and refer to the top image.","ag_step2":"Step 2 : Click the DOWNLOAD button below and its will prompt official installation guide.","ag_step3":"Step 3 :Follow the steps that is shown at the installation Guide to Download and login via Mobile.","pt_android_3step":"3 Steps to download PlayTech Android Version","pt_android_step1":"Step 1 : Click the DOWNLOAD button below and save it to your android device.","pt_android_step2":"Step 2 : Locate the downloaded application(apk) and install it.","pt_android_step3":"Step 3 : Login by using the Username\/Password that is provided at the top of this page.","pt_android_step_tip":"Tip : Change password by entering a new password at the password column above and click on the icon next to it to update your new password.","pt_desktop_3step":"3 Steps to download PlayTech Desktop Version","pt_desktop_step1":"Step 1 : Click the DOWNLOAD button below and save it to your desktop computer.","pt_desktop_step2":"Step 2 : Locate the downloaded setup(exe) file and install it.","pt_desktop_step3":"Step 3 : Login by using the Username\/Password that is provided at the top of this page.","pt_desktop_step_tip":"Tip : Change password by entering a new password at the password column above and click on the icon next to it to update your new password.","pt_slots_3step":"3 Steps to download PlayTech Android Version","pt_slots_step1":"Step 1 : Click the DOWNLOAD button below and save it to your android device.","pt_slots_step2":"Step 2 : Locate the downloaded application(apk) and install it.","pt_slots_step3":"Step 3 : Login by using the Username\/Password that is provided at the top of this page.","pt_slots_step_tip":"Tip : Change password by entering a new password at the password column above and click on the icon next to it to update your new password.","scr888_slots_3step":"3 STEP TO PLAY 918 SLOT ON YOUR MOBILE","scr888_slots_step1":"Step 1 : Choose your device (Android\/IOS) and start download the apps.","scr888_slots_step2":"Step 2 : Transfer funds into 918 SLOT wallet to get your login ID and password on right top section of this page.","scr888_slots_step3":"Step 3 : Launch the apps in your mobile and login with the ID and password from right top.","scr888_slots_step_tip":"Tip : Change password by entering a new password at the password column above and click on the icon next to it to update your new password.","trn_history":"Transaction History","turnover_update_note":"Acccording to your last bet timeframe, Turnover will be updated after 30 minutes.","total_betslips":"Total Betslips","select_deposit_source":"Please select your deposit source","crypto_warning_text":"**Please submit your deposit ASAP when transfer is done. We will based on first submit first approve policy, this is due cryptocurrencies is anonymous.","please_choose_one":"Please Choose One","choose_promotion":"Choose a promotion","select_bank_account":"Select Bank Account","deposit_channel":"Deposit Channel","reference_code":"Bank Reference","receipt_note":"For ATM deposit, you must submit the ATM receipt in order to process your request.","receipt_note_sg":"For each deposit, you must submit the receipt with your bank account number in order to process your request.","amount_note":"Min MYR 30.00 \/ Max 50,000.00","ref_note":"Please Provide the reference number of your deposit to speed up the process.","date_note":"Date\/time the deposit Made.","promo_note":"Kindly read the terms and condition before selecting.","date_time_on_receipt":"Date & Time On Receipt","date_time":"Date & Time","caution_deposit2":"Caution, you did selected <b> {selectedPromoTitle}  in this deposit, it do have {selectedPromoRollover} times rollover.<\/b>","caution_deposit":"Deposit","caution_bonus_selected":"Bonus Selected","caution_total_rollover":"Total Rollover","crypto_deposit":"Crypto Currency","coin_payment":"Crypto Currency","qr_payment":"QR Payment","deposit_source_text":"<p>Upon verifying bank account, it helps to enhance your user experience by:<\/p><ol><li>Speeding up deposit process. User no longer have to go through hustle and bustle of unverified bank issues.<\/li><li>Verified accounts have total ownership of the account.<\/li><li>We ensure your account\u2019s security in our website to prevent any unverified\/ third party from accessing your account.<\/li><\/ol>","offline_banking":"Offline Banking","crypto_amount":"Amount (Crypto)","deposit_source":"Deposit Source<br\/>(Verified Banks)","m_deposit_source":"Deposit Source (Verified Banks)","exchange_rate":"Exchange Rate","txid":"TXID","min_depsit_txt":"Minimum Deposit","dps_failed_msg_custom_1":"Your deposit request has failed!","dps_failed_msg_custom_2":"Please retry or contact our customer service.<br>","usdt_tips":"Attention:","usdt_tips_1":"Every member has their own unique Deposit Address for USDT(ERC20). When the above address receives USDT, it will automatically credit into your ECLBET\u2019s Main Wallet Balance according to the Exchange Rate.","usdt_tips_2":"Send only USDT to this Deposit Address, and make sure its network is ERC20 (Ethereum Network). Sending coin or token other than USDT to this address may result in the loss of your deposit and ECLBET is not able to retrieve it.","usdt_bep2_tips_1":"Every member has their own unique Deposit Address & Memo for USDT (BEP2). When the above address receives USDT, it will automatically credit into your ECLBET\u2019s Main Wallet Balance according to the Exchange Rate.","usdt_bep2_tips_2":"Send only USDT to this Deposit Address, and make sure its network is BEP2 (BNB Network) . Sending coin or token other than USDT to this address may result in the loss of your deposit and ECLBET is not able to retrieve it.","usdt_tips_3":"Please remember to copy MEMO as our address required MEMO for transaction, customer that did not key in memo may result in the loss of your deposit and ECLBET is not able to retrieve it.","usdt_tips_4":"Credit will automatically be credited into your wallet after all network confirmed. Normally it takes 10 minutes to reflect in your Main Wallet Balance after all network confirmed.","usdt_tips_5":"Deposit through this channel will not entitle for 120% Welcome Bonus and 20% Daily First Deposit Bonus.","usdt_tips_6":"ECLBET will not bears any Transaction Fees.","usdt_trc_tips_1":"Every member has their own unique Deposit Address for USDT(TRC20). When the above address receives USDT, it will automatically credit into your ECLBET\u2019s Main Wallet Balance according to the Exchange Rate.","usdt_trc_tips_2":"Send only USDT to this Deposit Address, and make sure its network is TRC20 (TRON Network). Sending coin or token other than USDT to this address may result in the loss of your deposit and ECLBET is not able to retrieve it.","usdt_trc_tips_3":"redit will automatically be credited into your wallet after all network confirmed. Normally it takes 10 minutes to reflect in your Main Wallet Balance after all network confirmed.","usdt_trc_tips_4":"Deposit through this channel will not entitle for 120% Welcome Bonus and 20% Daily First Deposit Bonus.","truepay_tutorial_step_by_step":"Tutorial (Step by step)","offline_bank_selections":"Offline Bank Selections","m_bank_selections":"Bank Selections","atm_note_title":"Attention:","atm_note_1":"Registered names on both the ECLBET account and bank account must match. ECLBET does not accept 3rd party transfer.","atm_note_2":"Kindly check our latest active bank account every time before making a new deposit to avoid slow process. ","atm_note_3":"Please follow \"Bank Reference\" to key in \"Recipient Reference\/ Other Payment Details\" during transfer.","atm_note_4":"Please DO NOT key in any sensitive words as below in \u201cRecipient Reference\/ Other Payment Details\u201d at your bank.<br\/>Example : ECLBET, ECL, BET, Casino and etc.","atm_note_5":"Kindly confirmed the bank transaction is successful before submit the deposit form in our website to avoid transaction delay. ","atm_note_6":"Please upload receipt every time to speed up the process. ","atm_note_7":"Please take note that at least 1x rollover is required for all deposits made before any withdrawal can be processed.","atm_note_8":"For every CDM\/ ATM deposit, please write \"for ECLBET only\" on the receipt with pen then upload it after submit the deposit form","rollover_requirement":"Rollover Requirement","accumulated_rollover":"Accumulated Rollover","promotion_rollover_status":"Promotion Rollover Status","rollover_lastupdated":"Last Updated On","unsettled_rollover":"Unsettled Rollover","latest_deposit_rollover":"Latest Deposit Rollover","total_rollover_requirement":"Total Rollover Requirement","4d_tnc":"Rules & Regulations","4d_note1":"The company reserves the right to do the following things :-","4d_note2":"Void investment that has problem.","4d_note3":"Investment placed after preset time will be void.","4d_note4":"Cancel draw and refund to user whenever is necessary.","4d_note5":"All investors must be aged 18 or over. It is each customer's responsibility to ensure that they comply with their own local laws with regards to investment. Our company reserves the right to refuse any investment without further correspondence.","4d_note6":"All credits in 4d wallet will be lock during 6pm to 9 pm (GMT+8).","latest_draw_result":"Latest Draw Results","register_title":"REGISTRATION","create_an_acc":"Create an account","register_successfully":"Register Successfully","already_register_question":"Already registered?","register_login":"Log in","member_registration_difficulty":"If you have difficulty supplying the above details, Please Contact Us.","reg_confirm_tnc":"Please confirm that you have read and understand the Terms & Conditions.","create_account":"Create Account","rg_val_fullname":"Please insert your full name","rg_val_maxlength":"Enter maximum {0} characters","rg_val_repeat_password":"Please insert same password as above","rg_val_repeat_password_equal":"Please insert same password as above","rg_val_email":"Please insert your email address","rg_val_email_inuse":"Email address already in use","rg_val_number_minlength":"Enter at least {0} numbers","rg_val_contact_number_inuse":"Contact number already in use","rg_val_gdcode":"Please insert GD code","rg_val_gdcode_number":"Please enter 4 digits into GD code","rg_val_upline_alphanumeric":"Affiliate Code must only contain characters or numbers.","rg_affiliate_note":"Please enter your referral or affiliate code if you have.","rg_val_dob":"Please select date","rg_fullname_note":"The name must match with your bank account name for <b>DEPOSIT<\/b> and withdrawal.","rg_val_chinese":"No chinese input.","refrerral":"Referral","gd_code":"GD Code","enter_your_username":"Enter your Username","enter_your_password":"Enter your Password","reenter_your_password":"Re-enter your Password","enter_your_fullname":"Enter your Full Name","enter_your_email":"user@example.com","enter_your_contact":"Enter your Contact Number","enter_your_refrerral":"Refrerral Code","enter_your_contact_MY":"0123456789","enter_your_contact_SG":"1234 5678","m_create_account":"CREATE ACCOUNT","contact_number_example":"0123456789","fp_note":"Please fill in the following details. An email will be sent to your registered email address.","fp_val_username":"Enter your user name","fp_val_username_inuse":"Username is already in use. Please try another one.","fp_val_minlength":"Enter at least {0} characters","fp_val_maxlength":"Enter maximum {0} characters","fp_val_email":"Enter a valid email address","fp_val_email_inuse":"Email address already in use","fp_email":"Registered Email Address","forget_password_cap":"FORGOT PASSWORD","fp_click_here":"Click Here","deposit_details":"Deposit Details","select_bank_acc":"Select Bank Account","ref_code":"Reference Code","dep_note":"Please note that we do not accept any deposit via cheques, any cheques that is deposited into our account withour prior notice will be peanlized.","deposit_method_remark":"Please select the deposit method you've made.","please_choose":"Please choose one","date_remark":"Please provide the date\/time which you've made the deposit.","ref_remark":"Please provide the reference number of your deposit will speed up the process.","bonus":"Bonus","bonus_remark":"Please claim your bonus within 14 days otherwise it will be void.","bank_acc_name":"Bank Account Name","bank_acc_no":"Bank Account Number","min_amount":"Min.","max_amount":"Max.","depo_hour":"Hour","depo_minute":"Minute","pg_min_deposit":"Minimum Deposit Amount : MYR","err_empty_receipt":"Please submit your RECEIPT","withdraw_bank_type":"Withdrawal bank type","withdraw_existing_bank":"Existing bank","withdraw_new_bank":"New bank","bank_branch":"Bank Branch","account_name":"Account Name","account_no":"Account Number","withdrawal_method":"Withdrawal Method","local_bank_transfer":"Local Bank Transfer","minimum_withdrawal_limit":"Minimum Withdrawal","daily_limit":"Daily Limit","maximum_withdrawal_limit":"Maximum Withdrawal","bank_name":"Bank Name","min_amt":"Min MYR 30.00","max_amt":"Max MYR 50,000.00","withdrawal_limit":"Minimum MYR 30.00","withdrawal_friendly_reminder":"Friendly Reminder","withdrawal_friendly_reminder_note_1":"Please take note that ALL Live Casino turnover will take about 30 minute to settle and update to our system.","withdrawal_friendly_reminder_note_2":"Hence, please wait at least 30 minute for your turnover to update in our system before submitting your withdrawal.","withdrawal_friendly_reminder_note_3":"This is to ensure your withdrawal wont be rejected due to turnover issues.","withdrawal_friendly_reminder_note_4":"All drawn or tie wagers, cancelled or void wagers, wager on odds less than DEC 1.5 or CN 0.5, or wagers on both even-chances during a single game will not be counted in the calculation of turnover for withdrawal or daily cash rebate.","withdrawal_friendly_reminder_note_sg_1":"Starting from 18th of Jan 2021 onwards, only verified bank accounts are eligible for withdrawals.","withdrawal_friendly_reminder_note_sg_2":"Please take note that ALL Live Casino turnover will take about 30 minute to settle and update to our system.","withdrawal_friendly_reminder_note_sg_3":"Hence, please wait at least 30 minute for your turnover to update in our system before submitting your withdrawal.","withdrawal_friendly_reminder_note_sg_4":"This is to ensure your withdrawal won\u2019t be rejected due to turnover issues.","withdrawal_friendly_reminder_note_sg_5":"All drawn or tie wagers, cancelled or void wagers, wager on odds less than DEC 1.5 or CN 0.5, or wagers on both even-chances during a single game will not be counted in the calculation of turnover for withdrawal or daily cash rebate.","withdrawal_sg_popup_note":"Starting from 18th of Jan 2021 onwards, only verified bank accounts are eligible for withdrawals.","withdrawal_success_msg_1":"Your withdrawal request has been submitted successfully.","withdrawal_success_msg_2":"You can check the processing status in History page. Your transaction id is: ","fail_to_submit":"Failed to Submit","fail_to_submit_note":"Reason : Have Remaining Turnover<br>Remaining Turnover : <span style=\"color: #fbbd2e;\">REMAIN_TURNOVER<\/span><br><br><span style=\"font-size: 14px;\">If your turnover reached, please kindly wait 30 minute for turnover to update in our system and you may submit again later.<\/span>","err_pswd_required":"Password cannot be empty","err_pswd_min_length":"Password must be at least {0} characters","err_pswd_format":"Password must only contain characters or numbers.","err_pswd_format_2":"Password must only contain characters, numbers or symbols.","err_re_pswd_required":"Repeat your password","err_re_pswd_match":"Enter the same password as above","err_full_name_required":"Full Name cannot be empty","err_email_required":"Email cannot be empty","err_email_format":"Enter at least {0} numbers","err_email_used":"Given email address is in use, please enter another email","err_contact_required":"Mobile Phone cannot be empty","err_contact_format":"Only numbers are allowed for mobile phone","err_contact_min_length":"Enter at least {0} numbers","err_contact_used":"Given mobile number is in use.","err_msg_5":"Input Must Be Numeric!","my_profile":"My Profile","update_personal_profile":"Update Personal Profile","update_new_password":"Update New Password","account_no_short":"Account Number","transaction_details":"Transaction Details","selected_bank":"Selected bank","pending_transaction_contact_livechat":"Please contact Livechat if transaction did not process within time given.","pending_transaction_delay_note":"*During daily bank maintenance hour ( 11.50PM - 1.00AM ) , deposit accepting count down timer might not be accurate as usual.","no_pending_transaction":"You have no pending transaction.","list_of_website":"LIST OF OFFICIAL WEBSITES","title_pending_transaction":"Pending Transactions","internal":{"name":"Sub Wallet A"},"transfer_from":"Transfer From","transfer_to":"Transfer To","transfer_amount":"Transfer Amount","wallet_transfer":"Transfer","transfer_success":"Your credit transfer is successful. Please call customer service shall there is any issue.","inbox_important":"Important","inbox_others":"Others","normal":"Normal","bronze":"100K","silver":"400K","gold":"1MIL","platinum":"4MIL ABOVE","vip_rank_normal":"NORMAL","vip_rank_bronze":"BRONZE","vip_rank_silver":"SILVER","vip_rank_gold":"GOLD","vip_rank_platinum":"PLATINUM","vip_deposit_less_than":"DEPOSIT LESSER THAN","vip_min_deposit":"MINIMUM DEPOSIT","vip_upto":"UP To","vip_welcome_bonus":"WELCOME BONUS","vip_current_status":"CURRENT STATUS","vip_current_deposit":"CURRENT DEPOSIT","vip_amount_required":"AMOUNT REQUIRED FOR NEXT TIER UPGRADE","times":"TIMES","remark":"Remark","confirm_delete":"Confirm Delete?","vip_amount_to_next":"Amount Required For Upgrade","withdrawal_limit_cap":"Withdrawal Limit","withdrawal_frequency_cap":"Withdrawal Frequency","registration_date":"Registration Date","withdraw_tip":"Withdrawal Limits (Per Day) is depend on member ranking.","withdraw_frequency_tip":"Withdrawal Frequency (Per Day) is depend on member ranking.","my_acc_info_title":"My Account Info","finance_title":"Finance","security_title":"Security","mailbox_title":"Mailbox","transaction_date":"Transaction Date","today":"Today","in_3_day":"In 3 Days","in_a_week":"In A Week","in_a_month":"In A Month","trn_date":"Transaction Date","start_date":"Start Date","4d_tnc_title":"Rules &amp; Regulations","4d_text_1":"The company reserves the right to do the following things","4d_prize_amount_text":"PRIZE AMOUNT","4d_1st_text":"1st Prize","4d_2nd_text":"2nd Prize","4d_3rd_text":"3rd Prize","4d_special_text":"SPECIAL","4d_consolation_text":"CONSOLATION","4d_payout_title":"Payout Table","4d_big_forecast_text_1":"Prize money for Big Forecast","4d_big_forecast_text_2":"For this Forecast, as shown in the table below, with every $1 bet, the 1st Prize pays $2,500, 2nd Prize $1,000, 3rd Prize $500, Special Prize $200 and Consolution Prize $60.","4d_big_forecast":"BIG FORECAST","4d_big_1st":"$ 2,500.00","4d_big_2nd":"$ 1,000.00","4d_big_3rd":"$ 500.00","4d_big_special":"$ 200.00","4d_big_consolation":"$ 60.00","4d_small_forecast_text_1":"Prize money for Small Forecast","4d_small_forecast_text_2":"For this Forecast, as shown in the table below, with every $1 bet, the 1st Prize pays $3,500, 2nd Prize $2,000, 3rd Prize $1,000.","4d_small_forecast":"SMALL FORECAST","4d_small_1st":"$ 3,500.00","4d_small_2nd":"$ 2,000.00","4d_small_3rd":"$ 1,000.00","myaccount_dob":"Date of Birth","myaccount_day":"Day","myaccount_month":"Month","myaccount_year":"Year","myaccount_promotion":"My Promotion","contactus_title":"Contact Us","contactus_24hours":"24Hrs Customer Service","contact_description_1":"You can chat to us live through our live chat option.","contact_description_2":"This will open a chat window with one of our support consultans.","contactus_livechat":"Live Chat","contactus_telegram_support":"Telegram Support","contactus_facebook_messenger":"Facebook Messenger","contactus_social_media":"Social Media","contactus_facebook":"Facebook","contactus_instagram":"Instagram","contactus_telegram":"Telegram Channel","w_ranking_ecoin":"Ranking E-Coins","w_number_game_ticket":"Number Game Tickets","w_prediction_ticket":"Prediction Tickets","go_btn":"Go","memo":"Memo","network":"Network","non_skippable_video":"Non Skippable Video","knowledge_check_1":"Knowledge Check","knowledge_check_2":"Completed!","knowledge_check_3":"Thank You!","knowledge_ok":"OK","noti_title":"New Notification","noti_approved":"Transaction #TRX has been approved","noti_rejected":"Transaction #TRX has been rejected","sec_ago":"X seconds ago","bet_now_short":"Bet Now","events":"Events","gamenames":{"casino":{"pt":"PT Club","hg":"Hg Club","evo":"EVO Club","gp":"GP Club","allbet":"Allbet Club","ebet":"Ebet Club","wm":"WM Club","sexy":"SG Club","asiagaming":"AG Club","dg":"DG Club","salon":"Salon club","ezugi":"Ezugi Club"},"esport":{"maxbet":"Maxbet","saba":"Saba-Esports","inplay":"Inplay Matrix","cmd":"CMD368","tfgaming":"TFGaming"},"sport":{"ibc":"Maxbet","cmd":"CMD368 Sports","3sing":"3Sing Sports"},"slots":{"pt":"PT Slots","tc":"PT Slots","sg":"SG Slots","tt":"Euro Slots","gp":"GP Slots","qt":"QTech Slots","cq9":"CQ9 Slots","pp":"Pragmatic Slots","jk":"JK Slots","png":"PNG Slots","dt":"DT Slots","gamatron":"Gamatron Slots"}},"vip_privileges":"Privileges","vip_rebates":"Rebates","vip_bonus":"Bonus","vip_birth_bonus":"Birthday Bonus","vip_up_bonus":"Upgrade Bonus","vip_lc_rebate":"Live Casino Rebate","vip_sp_rebate":"Sportsbook Rebate","vip_sl_rebate":"Slots Rebate","vip_withdrawal":"Withdrawal","vip_withdrawal_freq":"Withdrawal Frequency","vip_withdrawal_amount":"Withdrawal Amount","vip_withdrawal_channel":"Withdrawal Channels","reg_no_account":"Do not have an account?","register_now":"Register Now","view_full_wallet":"View Full Wallet","follow_us":"Follow Us","referral_websites":"Referral Websites","mark_as_read":"Mark As Read","delete":"Delete","inbox":"Inbox","banking_details":"Banking Details","confirm_mark_read":"Confirm Mark as Read?","claim":"Claim","avatar":"Avatar","update_avatar":"Update Avatar","sms_sent_msg":"SMS sent to your mobile number <span id=\"otp_mobileno\" class=\"mobileNumber\"><\/span>","in3days":"In 3 Days","in1week":"In A Week","in1month":"In A Month","trf_in":"IN","trf_out":"OUT","bank_incomplete":"Incomplete","bank_pending":"Pending","action":"Action","verify_bank_account":"Verify Bank Account","choose_file":"Choose File","read_all":"Read All","account_setup":"Account Setup","login_details":"Login Details","personal_details":"Personal Details","download_app":"Download App","click_here":"Click Here","or":"Or","yes":"Yes","transfer_all_title":"Transfer All to Main Wallet","footer_localbanks":"Local Banks","footer_crypto":"Cryptocurrencies","footer_paymentgateway":"Payment Gateway","success_copied":"You have successfully copied.","deposit_agree":"Agree","deposit_disagree":"Disagree"};
+	var history_product_cap = {"main":"Main Wallet","scr888":"SCR888","lpe88":"LPE88","s8star":"S8Star","rollex":"Rollex","playboy":"Playboy","suncity":"SunCity","tbs":"TBS","gw99":"GW99","newtown":"NEWTOWN","tc":"PT Slots","win8":"3WIN8","sky3888":"SKY3888","fd":"4D","ibc":"Maxbet Esports & Sports","4d":"4D","pt":"PT Club & Slots","hg":"Hg Club","ebet":"Ebet Club","ebets":"Ebet Club","evg":"EVO Club","mansion":"M Club & 3D Slots","spade":"SG Slots","spadegaming":"SG Slots","toptrend":"Euro Slots","ttg":"Euro Slots","hc":"Esports","w88":"GP Club & Slots","gp":"GP Club & Slots","wm":"WM Club","allbet":"Allbet Club","ab":"Allbet Club","absw":"Allbet Club","qtech":"QTech Slots","qt":"QTech Slots","sa":"Salon Club","sing":"Sportbook","sing3":"3Sing Sports","cmd":"CMD Esports & Sports","sexy":"SG Club","joker":"JK Slots","pragmatic":"Pragmatic Slots","scr":"918 Slots","imone":"Inplay Esports","cq9":"CQ9 Slots","igk":"IGKbet Sports","evolution":"EVO Club","gw":"JK Slots","asiagaming":"AG Club","gamatron":"Gamatron","dg":"DG Club","playngo":"PNG Slots","dreamtech":"DT Slots","tfgaming":"TFGaming","ezugi":"Ezugi Club"};
+	var memFlagData = null;
+    var isGettingMemberFlag = false;
+	
+	function alert_login(){
+		showAlertMsg('Error', loginFirstMsg);
+	}
+
+    Object.freeze(_lang);
+
+	var _Registrar = {
+		//initiate slider
+		bannerInitializer: function() {
+			
+            const homeBannerSwiper = new Swiper('.swiper-container.homeBannerWrapper', {
+                loop: true,
+                slidesPerView: 1,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                    stopOnLast: true,
+                },
+                speed:1000,
+
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+		},
+
+	}
+
+	function _getMemberFlag(callback)
+	{
+		if (loginFlag) {
+            if (isGettingMemberFlag) {
+                setTimeout(function() {
+                    _getMemberFlag(callback)
+                }, 500);
+                return;
+            }
+
+			if (memFlagData == null) {
+                isGettingMemberFlag = true;
+				$.ajax({
+					type: 'POST',
+					url: 'a/getMemberFlag',
+					dataType: 'json'
+				}).success(function(data) {
+                    isGettingMemberFlag = false;
+					memFlagData = data;
+					callback(memFlagData);
+				});
+			} else {
+				callback(memFlagData);
+			}
+		} else {
+			callback(null);
+		}
+	}
+
+	function number_format(number, decimals, decPoint, thousandsSep) {
+		number = (number + '').replace(/[^0-9+\-Ee.]/g, '')
+		var n = !isFinite(+number) ? 0 : +number
+		var prec = !isFinite(+decimals) ? 0 : Math.abs(decimals)
+		var sep = (typeof thousandsSep === 'undefined') ? ',' : thousandsSep
+		var dec = (typeof decPoint === 'undefined') ? '.' : decPoint
+		var s = ''
+
+		var toFixedFix = function(n, prec) {
+			if (('' + n).indexOf('e') === -1) {
+				return +(Math.round(n + 'e+' + prec) + 'e-' + prec)
+			} else {
+				var arr = ('' + n).split('e')
+				var sig = ''
+				if (+arr[1] + prec > 0) {
+					sig = '+'
+				}
+				return (+(Math.round(+arr[0] + 'e' + sig + (+arr[1] + prec)) + 'e-' + prec)).toFixed(prec)
+			}
+		}
+
+		// @todo: for IE parseFloat(0.55).toFixed(0) = 0;
+		s = (prec ? toFixedFix(n, prec).toString() : '' + Math.round(n)).split('.')
+		if (s[0].length > 3) {
+			s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep)
+		}
+		if ((s[1] || '').length < prec) {
+			s[1] = s[1] || ''
+			s[1] += new Array(prec - s[1].length + 1).join('0')
+		}
+
+		return s.join(dec)
+	}
+
+	function setCustomCookies(cookieName, durationInHour) {
+		var expiredDate = new Date();
+		expiredDate.setTime(expiredDate.getTime() + (durationInHour * 60 * 60 * 1000));
+		var depositAlert_expires = "expires=" + expiredDate.toGMTString();
+		document.cookie = cookieName + "=1;" + depositAlert_expires + ";path=/";
+	}
+
+	function readCustomCookies(cookieName) {
+		var name = cookieName + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for (var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	function init(module) {
+		if (typeof module == 'undefined') {
+			module = _p;
+		}
+		
+		_User.logout = function () {
+			var html = '<form id="logout-form" action="a/logout" method="post"><input type="hidden" name="redirect" value="1"/></form>';
+			$('body').append(html);
+			$('#logout-form').submit();
+		};
+
+		if (window.overrideSdkFn !== undefined && typeof window.overrideSdkFn == 'function') {
+			overrideSdkFn();
+		}
+
+		_Util.listenOnDom();
+
+		if (typeof _fn[module] === 'function') {
+			_ctrl = new _fn[module]();
+			if (typeof _ctrl.init === 'function') {
+				_ctrl.init(); //initialize page function;
+			}
+		}
+
+		if (typeof initMgInfo === 'function') {
+			initMgInfo();
+		}
+
+		if (loginFlag) {
+			_getMemberFlag(function(data) {
+				if (data.status == '0') {
+					var badge = data.d.badge;
+					$('#header-vip-level').text(badge);;
+				}
+		    });
+		}
+
+		if (readCustomCookies('user_onlinekey') == '') {
+			setCustomCookies('user_offline', 1);
+		} else if (readCustomCookies('user_onlinekey') != '' && readCustomCookies('user_offline') != '') {
+			$('.login-loading').show();
+			setTimeout(function() {
+				$('#ecl-content').show();
+				$('.login-loading').fadeOut();
+				setCustomCookies('user_offline', '');
+			}, 2000);
+		}
+
+		if (typeof HeaderCtrl === 'function') {
+			_headerctrl = new HeaderCtrl();
+    		_headerctrl.init();
+		}
+	}
+
+	$(document).ready(function() {
+		launchGamesUrl = function (gdata) {
+			var postfix = window.location.href.indexOf(".html") > -1 ? ".html" : "";
+			var ra = gdata.split("::");
+			if (ra[2] != "DC" && (ra[1] == "sports" || ra[1] == "es")) {
+				window.open("launchinggame" + postfix + "?ap=1&sub=" + gdata, gameTabName);
+			} else {
+				if (loginFlag) {
+					window.open("launchinggame" + postfix + "?ap=1&sub=" + gdata, gameTabName);
+				} else {
+					showAlertMsg('', loginFirstMsg);
+				}
+			}
+		};
+
+		show_proccessing = function(content, customWidth) {
+			var defaultWidth = 200;
+			if (typeof customWidth == 'number') {
+				defaultWidth = customWidth;
+			}
+			var str = '<img src="https://jdyecl6er.cloudcdnetw.com/ebv3/m/images/gif/loading.gif" class="gifImg" />';
+			
+			show_popup(str, defaultWidth);
+		}
+
+		init();
+	})
+</script><meta name="rating" content="General"> <script>
+			ui_method = '2';
+		</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.gradient-primary{background:linear-gradient(91.23deg,#FABB2E 0%,#E5B35C 100%)}.gradient-secondary{background:linear-gradient(91.23deg,#2CBD9C 0%,#289D82 100%)}.border-gradient-secondary{border-image-source:linear-gradient(91.23deg,#2CBD9C 0%,#289D82 100%)}h1,h2,h3,h4,h5,h6,p,a,button,li,table,th,td,label,input,span,.button{font-family:rubik,sans-serif;margin:0}h1,.h1{font-size:32px;font-weight:700;line-height:38px}h2,.h2{font-size:24px;font-weight:700;line-height:28px}h3,.h3{font-size:20px;font-weight:700;line-height:24px}.title{font-size:16px;font-weight:500;line-height:19px}.title2{font-size:14px;font-weight:500;line-height:17px}.title3{font-size:14px;font-weight:600;line-height:17px}.title4{font-size:20px;font-weight:400;line-height:26px;letter-spacing:12px}.title5{font-size:24px;font-weight:400;line-height:22px}.title6{font-size:32px;font-weight:400;line-height:30px}button,.button{font-size:14px;font-weight:700;line-height:17px}.body{font-size:16px;font-weight:400;line-height:21px}.body2{font-size:14px;font-weight:400;line-height:19px}.body3{font-size:14px;font-weight:400;line-height:24px}.body4{font-size:14px;font-weight:400;line-height:22px}.body5{font-size:14px;font-weight:500;line-height:22px}.caption1{font-size:12px;font-weight:400;line-height:14px}.caption2{font-size:10px;font-weight:700;line-height:12px}.caption3{font-size:10px;font-weight:500;line-height:12px}.caption4{font-size:12px;font-weight:500;line-height:14px}.caption5{font-size:10px;font-weight:400;line-height:12px}.caption6{font-size:10px;font-weight:600;line-height:12px;font-style:italic}.caption7{font-size:12px;font-weight:700;line-height:14px}.caption8{font-size:16px;font-weight:700;line-height:19px}.caption9{font-size:12px;font-weight:600;line-height:12px}.fontAwesome{font-family:"font awesome 5 free";font-weight:900;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}#homePageBanner{padding-top:56px;overflow-x:hidden}#homePageBanner .swiper-container{width:100%;height:47vw;position:relative}#homePageBanner .swiper-container .swiper-slide{background-size:cover;background-position:center;background-repeat:no-repeat}#homePageBanner .swiper-container .swiper-pagination-bullet{width:8px;height:8px;margin:0 4px;background-color:#289d82;opacity:.5}#homePageBanner .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active{opacity:1}#announcementBar{padding:7px 16px;font-size:0}#announcementBar>*{display:inline-block;vertical-align:middle}#announcementBar .cryptocurrency{font-size:12px;font-weight:400;line-height:14px;color:#fff;width:calc(100% - 59px);white-space:nowrap;overflow:hidden}#announcementBar .cryptocurrency span{display:inline-block;-webkit-animation:marquee 25s linear infinite;animation:marquee 25s linear infinite}@-webkit-keyframes marquee{0%{transform:translateX(35%);-webkit-transform:translateX(35%)}100%{transform:translateX(-100%);-webkit-transform:translateX(-100%)}}@keyframes marquee{0%{transform:translateX(35%);-webkit-transform:translateX(35%)}100%{transform:translateX(-100%);-webkit-transform:translateX(-100%)}}#announcementBar img{height:24px;margin-left:35px}#category{font-size:0;border-top-left-radius:20px 12px;border-top-right-radius:20px 12px;border-top:1px solid #fabb2e}#category .categoryWrapper{padding:16px 16px 0}#category .categoryWrapper>a{width:25%;display:inline-block;vertical-align:top;text-align:center;margin-bottom:24px}#category .categoryWrapper>a img{height:32px;padding-bottom:2px}#category .categoryWrapper>a p{font-size:12px;font-weight:400;line-height:14px;color:#b2b2b2}#category .categoryWrapper .homeMenuRanking,#category .categoryWrapper .homeMenuNumberGame{display:none}#eclMovieBanner{padding-bottom:32px;overflow-x:hidden}#eclMovieBanner .swiper-container.eclMovieBannerWrapper{position:relative}#eclMovieBanner .swiper-container.eclMovieBannerWrapper .swiper-slide .eclMovieImg{width:100%;height:26vw;background-size:cover;background-position:center;background-repeat:no-repeat}#homePage #rankingSection{display:none}
+
+
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    overflow-x: auto;
+}
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
